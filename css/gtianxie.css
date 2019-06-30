@@ -1,0 +1,311 @@
+body{
+    background: #FBFEFF;
+}
+.gang{
+    width: 6.96rem;
+	height: 0.02rem;
+	background-color: #000000;
+    opacity: 0.05;
+    margin: auto;
+   
+}
+.top{
+    height: 0.88rem;
+    width: 7.5rem;
+    background: #fbfeff;
+   
+    text-align: center;
+    position:relative;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    position: relative;
+}
+.top i{
+   color:  #36a8fe;
+   width: 0.25rem;
+   height: 0.42rem;
+   position: absolute;
+   left: 0.24rem;
+   bottom: 0.45rem;
+}
+
+.top p{
+    color: #4ebbfe;
+}
+.box{
+    height:2.33rem;
+    width: 7.5rem;
+}
+.zhaiji{
+    width: 7.5rem;
+    height: 1.32rem;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    color: #3bacfe;
+    font-weight: bold;
+    line-height:1.32rem;
+    font-size: 0.24rem;
+
+}
+.duigou{
+    height: 1.32rem;
+  
+    float:left;
+    color: #8a8c8d;
+}
+
+.duigou .iconduigou{
+    width: 0.24rem;
+    height: 0.24rem;
+    color: #37e06f;
+        float: left;
+}
+.duigou .iconyou{
+    width: 0.1rem;
+    height: 0.17rem;
+    float: left;
+    color: #36a8fe;
+}
+.duigou span{
+    font-size: 0.24rem;
+   
+    float: left;
+}
+.zhaiji .sangchu .iconfont{
+    float: right;
+
+}
+.shuilon{
+    width: 7.5rem;
+    height: auto;
+    font-weight: bold;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+}
+ .yuan{
+    width: 0.24rem;
+    height: 0.24rem;
+    display:inline-block;
+    background-color: #e7f6ff;
+    margin-top: 0.77rem;
+    float: left;
+    border-radius: 50%;
+
+}
+.shuilon img{
+    width: 1.74rem;
+    height: 1.74rem;
+    float: left;
+    margin:0 0.25rem;
+}
+.shuilon .p{
+    float: left;
+    width: 4.52rem;
+  
+    
+    margin-top: 0.03rem;
+}
+
+
+.shuilon .p .jij{
+    float: right;
+    font-size: 0.26rem;
+   color: #36a8fe;
+
+}
+.shuilon .p .jij span{
+    float: right;
+    margin: 0 0.17rem;
+
+}
+
+.shuilon .p .iconjianhaojianying {
+    float: right;
+    color: #9dd9ff;
+    box-shadow:rgba(59, 172, 254, 0.43);
+   
+
+    
+}
+.shuilon .p .iconjiahao {
+    float: right;
+    color: #36a8fe;
+    box-shadow:rgba(59, 172, 254, 0.43);
+}
+
+.shuilon p{
+    font-size: 0.26rem;
+    color: #8e9397;
+    opacity: 0.8;
+    line-height: 0.78rem;
+}
+.zuihou{
+    line-height: 0.35rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 0.26rem;
+    color: #36a8fe;
+    display: flex;
+    align-items: center;
+ 
+}
+.zuizui{
+    margin-top: 0.23rem;
+    display: flex;
+    align-items: center;
+}
+
+.zuihou span{
+    color:#3bacfe;
+   
+}
+.zuihou .span{
+    color: #36a8fe;
+    font-size: 0.3rem;
+}
+.zuihou .shangm{
+    color: #8a8c8d;
+  
+    font-size: 0.22rem;
+}
+
+.yuanav{
+    float: left;
+    width: 0.05rem;
+    height: 0.05rem;
+    display: inline-block;
+    background-color: #44b5ff;
+   
+    float: left;
+    border-radius: 50%;
+    margin-right: 0.09rem;
+    box-shadow: 0px 2px 5px 0px 
+		rgba(68, 181, 255, 0.43);
+}
+ .zuihou .yua{
+    background: #36d681;
+}
+ .zuihou .sha{
+    color: #fbb548;
+}
+.yunf{
+    margin-top: 0.18rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    font-size:0.2rem;
+}
+.zuihou p{
+    width: 3.8rem;
+    height: 0.6rem;
+    background: #31d69a;
+    color: #ffffff;
+    font-size: 0.24rem;
+    border-radius: 0.3rem;
+    float: right;
+    line-height: 0.6rem;
+    text-align: center;
+    margin-top:0.2rem;
+    position: absolute;
+   bottom: 0.22rem;
+    right: 0.24rem;
+}
+.zuiz{
+    margin-top: 0.2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.zuiz .float{
+    position: absolute;
+    top: -0.02rem;
+    right: -0.2rem;
+   
+    font-size: 0.24rem;
+}
+.zuiz .float .yuanav{
+    margin-top: 0.18rem;
+}
+.zuiz .float span{
+    color:#8a8c8d;
+}
+.zaa{
+    width: 7.5rem;
+    height: 0.99rem;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    color:#8a8c8d;
+    font-weight: bold;
+    line-height:  0.99rem;
+    font-size: 0.24rem;
+}
+
+.zaa .yuanav{
+   
+}
+.zaa .duigou{
+    height: 0.99rem;
+    display: flex;
+    align-items: center;
+}
+.zaa .sangchu span{
+    float: right;
+    margin-right: 0.16rem;
+    font-size: 0.22rem;
+}
+.zaa .duigou .qxuan{
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.4;
+    margin-left: 0.2rem;
+   
+}
+.wud{
+    color: #36a8fe;
+}
+.tjian{
+    color: #b9c9d2;
+    float: right;
+}
+.bottom{
+    width: 7.5rem;
+    height: 1.08rem;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    background-color: #f1faff;
+   
+    line-height:1.08rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+   
+}
+.bottom .yuanav{
+  
+}
+.bottom .hej{
+    font-size: 0.24rem;
+    color: #3bacfe;
+	opacity: 0.6;
+}
+.bottom .yiliuer{
+    font-size: 0.36rem;
+    color: #36a8fe;
+    font-weight: bold;
+}
+.bottom p{
+    width: 3.5rem;
+    height: 0.6rem;
+    background: #3bacfe;
+    border-radius: 0.3rem;
+    position: absolute;
+    top:0.26rem;
+    right: 0.36rem;
+    line-height: 0.6rem;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0px 5px 12px 0px 
+		rgba(59, 172, 254, 0.43);
+}

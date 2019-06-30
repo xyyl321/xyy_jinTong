@@ -1,0 +1,45 @@
+@import "bAddno.css";
+.bjBox{
+    width:6.81rem;
+    height:2.4rem;
+    background-image:url("../img/fjb.png");
+    background-size:100%;
+    margin:0.69rem auto 0;
+    display:flex;
+    align-items:flex-end;
+}
+.bjBox .zibox{
+    width:100%;
+    height:0.66rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.bjBox .zibox .dians{
+    width:0.1rem;
+    height:0.05rem;
+    border-radius:0.025rem;
+    background-color:#FEC037;
+    box-shadow:0 0.02rem 0.05rem 0 #FEC037;
+}
+.bjBox .zibox .need{
+    font-size:0.26rem;
+    color:rga(0,0,0,0.7);
+    margin:0 0.1rem;
+}
+.bjBox .zibox .price{
+    font-size:0.3rem;
+    font-weight:bold;
+    color:#525E66;
+}
+.jisuan{
+    width:6.44rem;
+    height:0.79rem;
+    border-top:0.02rem solid rgba(0,0,0,0.05);
+    border-bottom:0.02rem solid rgba(0,0,0,0.05);
+    font-size:0.24rem;
+    color:rgba(0,0,0,0.5);
+    text-align:center;
+    line-height:0.79rem;
+    margin:0.49rem auto 0;
+}

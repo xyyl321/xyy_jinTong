@@ -1,0 +1,213 @@
+body{
+    background-color:#FBFEFF;
+}
+header{
+    width:7.5rem;
+    height:0.88rem;
+    background-color:#FBFEFF;
+    font-size:0.38rem;
+    color:#4FBAFC;
+    text-align:center;
+    line-height:0.88rem;
+    position:fixed;
+    top:0;
+    left:0;
+}
+header .back{
+    display:block;
+    width:0.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    left:0.24rem;
+}
+header .iconzuojiantou{
+    font-size:0.4rem;
+    color:#4FBAFC;
+}
+nav{
+    width:7.5rem;
+    height:0.9rem;
+    margin-top:0.88rem;
+    margin-bottom:0.42rem;
+    background-color:#fbfeff;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+}
+nav .navBox{
+    width:7.02rem;
+    height:100%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+nav .navBox .navList{
+    display:block;
+    height:0.4rem;
+    line-height:0.4rem;
+    font-size:0.22rem;
+    color:#3DACFC;
+}
+nav .navBox .navList i{
+    font-size:0.22rem;
+}
+nav .navBox .navList1{
+    color:#33D582;
+}
+section{
+    width:100%;
+    height:auto;
+}
+section .long{
+    display:block;
+    width:7.02rem;
+    height:2.4rem;
+    margin:0 auto;
+    padding:0 0.1rem;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+section .long .tuBg{
+    width:1.74rem;
+    height:1.74rem;
+    border-radius:0.1rem;
+    background-color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+section .long .tuBg .longtou{
+    width:1.18rem;
+    height:1.18rem;
+}
+section .long .longCon{
+    width:3.5rem;
+    height:1.74rem;
+    padding-left:0.1rem;
+    box-sizing:border-box;
+}
+section .long .longCon .longName{
+    height:0.36rem;
+    line-height:0.36rem;
+    font-size:0.3rem;
+    color:rgba(0,0,0,0.6);
+}
+section .long .longCon .ping{
+    width:auto;
+    height:0.5rem;
+    display:flex;
+    align-items:center;
+}
+section .longCon .dian{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.07rem;
+}
+section .longCon .dian1{
+    margin-left:0.5rem;
+}
+section .longCon .ping .sp{
+    font-size:0.22rem;
+    color:rgba(0,0,0,0.3);
+    margin-right:0.1rem;
+}
+section .longCon .ping .sp1{
+    font-size:0.26rem;
+    font-weight:bold;
+    color:#38A8FC;
+}
+section .longCon .ping .bai{
+    font-size:0.26rem;
+    font-weight:bold;
+    color:#b9e1ff;
+}
+section .longCon .fei{
+    width:2.51rem;
+    height:0.42rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+section .longCon .fei .very{
+    width:1.21rem;
+    height:0.35rem;
+    border-radius:0.175rem;
+    background-color:rgba(61,170,253,0.1);
+    font-size:0.2rem;
+    color:#38A8FC;
+    text-align:center;
+    line-height:0.35rem;
+}
+section .longCon .shou{
+    margin-top:0.15rem;
+    width:auto;
+    height:0.3rem;
+    display:flex;
+    align-items:center;
+}
+section .longCon .dian2{
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+}
+section .longCon .shou .spp{
+    font-size:0.18rem;
+    color:rgba(0,0,0,0.3);
+    margin-right:0.06rem;
+}
+section .longCon .shou .spp1{
+    font-size:0.22rem;
+    color:rgba(0,0,0,0.2);
+}
+section .long .dingJin{
+    width:1.4rem;
+    height:1.74rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+section .long .dingJin .price{
+    font-size:0.26rem;
+    color:#FAB44A;
+}
+
+/* 综合 */
+.bgBox1{
+    width:7.5rem;
+    height:11.56rem;
+    background-color:rgba(0,0,0,0.8);
+    position:fixed;
+    bottom:0;
+    left:0;
+    display:none;
+}
+.bgBox1 .zongBox{
+    width:7.5rem;
+    height:2.07rem;
+    background-color:#FAFDFF;
+}
+.bgBox1 .zongBox .pp{
+    width:5.78rem;
+    height:0.52rem;
+    margin:0 auto;
+    line-height:0.52rem;
+    border-bottom:0.02rem solid rgba(0,0,0,0.04);
+    font-size:0.24rem;
+}
+.bgBox1 .zongBox .p2{
+    height:0.67rem;
+    line-height:0.67rem;
+}
+.bgBox1 .zongBox .p3{
+    height:0.67rem;
+    line-height:0.67rem;
+    border-bottom:0;
+}

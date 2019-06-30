@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    background-color:#fbfeff;
+}
+
+/* 头部开始 */
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:#fbfeff;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    position:fixed;
+    top:0;
+    text-align:center;
+    line-height:0.88rem;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    font-size:0.36rem;
+    color:#4ebbfe;
+}
+.header .iconzuojiantou{
+    font-size:0.38rem;
+    position: absolute;
+    left:0.24rem;
+    top:0.06rem;
+    color:#36a8fe;
+}
+/*导航栏*/
+.daoh{
+    height:0.96rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    margin-top:0.88rem;
+    display:flex;
+    justify-content:center;
+}
+.daoh .box{
+    width:4.5rem;
+    height:0.96rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+.daoh .box .son{
+    width:1.34rem;
+    height:0.52rem;
+    border-radius:0.4rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:0.2rem;
+    color:white;
+    background-color:#3bacfe;
+    box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);
+}
+.daoh .box .son1{
+    background-color:#e7f6ff;
+    color:#3bacfe;
+    font-size:0.2rem;
+    box-shadow:none;
+}
+/*优惠卷卡片*/
+.ka{
+    height:1.84rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    margin-top:0.36rem;
+    display:flex;
+    justify-content:center;
+}
+.ka .kap{
+    height:1.84rem;
+    width:6.86rem;
+    border-radius:0.1rem;
+    background:-webkit-linear-gradient(left,#27d29c,#33e171);
+    background:linear-gradient(left,#27d29c,#33e171);
+    padding:0 0.2rem;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:space-between;
+
+}
+.ka .kap .left{
+    width:4.96rem;
+    height:1.84rem;
+    display: flex;
+    flex-direction:column;
+    justify-content:spance-between;
+}
+.ka .kap .left .top{
+    height:1.24rem;
+    width:100%;
+    border-bottom:0.02rem dotted rgba(255,255,255,0.6);
+    box-sizing:border-box;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start; 
+}
+.ka .kap .left .top .l{
+    margin-top:0.1rem;
+    height:0.6rem;
+    width:1.44rem;
+}
+.ka .kap .left .top .l img{
+    height:0.6rem;
+    width:auto;
+}
+.ka .kap .left .top .r{
+    margin-top:0.1rem;
+
+    height:0.6rem;
+    width:2.6rem;
+
+}
+.ka .kap .left .top .r .name{
+    font-size:0.26rem;
+    color:white;
+    /*line-height:0.36rem;*/
+}
+.ka .kap .left .top .r .man{
+    font-size:0.2rem;
+    color:rgba(255,255,255,0.6);
+}
+.ka .kap .left .bottom{
+    height:0.6rem;
+    width:100%;  
+    display:flex;
+    align-items:center;
+    justify-content:flex-start; 
+}
+.ka .kap .left .bottom .dian{
+    height:0.06rem;
+    width:0.06rem;
+    background:white;
+    border-radius:0.4rem;
+}
+.ka .kap .left .bottom .text2{
+    color:rgba(255,255,255,0.6);
+    font-size:0.2rem;
+    margin-left:0.08rem;
+}
+
+
+.ka .kap .right{
+    width:1.38rem;
+    height:1.84rem;
+    display: flex;
+    flex-direction:column;
+    justify-content:spance-between;
+}
+.ka .kap .right .top1{
+    height:1.24rem;
+    width:100%;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center; 
+   /* padding-bottom:0.2rem;*/
+    box-sizing:border-box;
+    font-size:0.94rem;
+    color:#fbfeff;
+    font-weight:bold;
+}
+.ka .kap .right .top1 span{
+    font-size:0.22rem;
+    padding-bottom:0.2rem;
+}
+.ka .kap .right .bottom1{
+    height:0.6rem;
+    width:100%;  
+    display:flex;
+    align-items:center;
+    justify-content:flex-end; 
+}
+.ka .kap .right .bottom1 .lj{
+    width:1.36rem;
+    height:0.38rem;
+    border-radius:0.4rem;
+    background-color:#fefffe;
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+    font-size:0.2rem;
+    color:#32e074;
+}
+
+/**/
+.ka .kap1{
+    background:-webkit-linear-gradient(left,#34a3f8,#3fdef1);
+    background:linear-gradient(left,#34a3f8,#3fdef1);
+}
+.ka .kap2{
+    background:-webkit-linear-gradient(left,#ffb637,#ffde47);
+    background:linear-gradient(left,#ffb637,#ffde47);
+}

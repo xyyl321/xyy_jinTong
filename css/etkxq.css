@@ -1,0 +1,332 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    background-color:#fbfeff;
+}
+
+/* 导航栏开始 */
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:#fbfeff;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    position:fixed;
+    top:0;
+    text-align:center;
+    line-height:0.88rem;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    font-size:0.36rem;
+    color:#4ebbfe;
+}
+.header .iconzuojiantou{
+    font-size:0.4rem;
+    position: absolute;
+    left:0.24rem;
+    top:0rem;
+    color:#36a8fe;
+}
+/*等待*/
+.dengd{
+    height:1.2em;
+    width:7.5rem;
+    padding:0.66rem 0.24rem 0.24rem 0;
+    margin-top:0.88rem;
+    color:#4f5b64;
+    font-size:0.3rem;
+    font-weight:bold;
+    text-align:center;
+}
+/*还剩时间*/
+.t{
+    height:0.7rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
+.t .time{
+    height:0.7rem;
+    width:7.02rem;
+    padding-top:0.1rem;
+    border-top:0.02rem solid #f1f4f5;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t .time .hs{
+    color:#4f5b64;
+    font-size:0.26rem;
+    font-weight:bold;
+    text-align:center;
+    display:flex;
+    align-items: center;
+}
+.time .hs .shij{
+    color:#ff6666;
+    font-size:0.4rem;
+    margin:0 0.06rem;
+}
+.t .time .both{
+    width:0.1rem;
+    height:0.06rem;
+    border-radius:0.08rem;
+    background-color:#ff6666;
+    box-shadow:0 0.04rem 0.08rem 0.01rem #fd9898;
+    margin:0 0.1rem;
+}
+/*文字部分*/
+.text{
+    height:4.34rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+   overflow:hidden;
+}
+.text .text1{
+    font-size:0.26rem;
+    color:#7d7f7f;
+    line-height:0.4rem;
+    margin-top:0.4rem;
+}
+/*按钮*/
+.an{
+    height:1.44rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
+.ann{
+    height:1.44rem;
+    width:7.02rem;
+    border-bottom:0.02rem solid #f1f4f5;
+    padding-top:0.1rem;
+    box-sizing:border-box;
+}
+.ann .an1{
+height:0.6rem;
+width:1.66rem;
+background-color:#e7f6ff;
+border-radius:0.4rem;
+text-align:center;
+line-height:0.6rem;
+color:#46b1fe;
+font-size:0.2rem;
+float:right;
+margin-right:0.2rem;
+
+
+
+
+}
+.ann .an2{
+    height:0.6rem;
+    width:1.66rem;
+    border-radius:0.4rem;
+    text-align:center;
+    line-height:0.6rem;
+    color:white;
+    font-size:0.2rem;
+    float:right;
+    margin-right:0.2rem;
+    background-color:#3bacfe;
+    box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);
+}
+/*退款信息*/
+.tkz{
+    width:7.5rem;
+    height:3.9rem;  
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
+.tkz .top{
+    height:0.9rem;
+    width:7.02rem;
+    display: flex;
+    align-items: center;
+}
+.tkz .top .both{
+    width:0.1rem;
+    height:0.06rem;
+    border-radius:0.03rem;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
+}
+.tkz .top .text1{
+    color:#474747;
+    height:0.9rem;
+    width:1.2rem;
+    font-size:0.26rem;
+    line-height:0.9rem;
+}
+.tkz .top .text1 span{
+    color:#31d094;
+}
+.tkz .tk{
+    width:7.02rem;
+    height:3rem;  
+    box-sizing:border-box;
+    border-bottom:0.02rem solid #f1f4f5;
+}
+.tkz .tk .kap{
+    height:1.8rem;
+    width:7.02rem;
+    box-sizing:border-box;
+}
+.tkz .tk .kap .left{
+   width:1.74rem;
+   height:1.74rem; 
+   border-radius:0.2rem;
+   overflow:hidden;
+   float:left;
+   margin-right:0.26rem;
+   box-shadow:0 0 0.1rem 0.01rem #f5f8f9; 
+}
+.tkz .tk .kap .right{
+    width:5.02rem;
+    height:1.78rem;
+    float:left;
+}
+.tkz .tk .kap .right .name{
+    height:0.44rem;
+    width:5.02rem;
+    color:#646666;
+    font-size:0.3rem;
+    font-weight:bold;
+}
+.tkz .tk .kap .right .lw{
+    height:0.36rem;
+    width:5.02rem;
+    display: flex;
+    align-items: center;
+}
+.tkz .tk .kap .right .lw .yuan{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
+}
+.tkz .tk .kap .right .lw .wenz{
+    font-size:0.26rem;
+    color:#36a8fe;
+    height:0.36rem;
+    line-height:0.36rem;
+}
+.tkz .tk .kap .right .lw .wenz2{
+    font-size:0.2rem;
+    color:#afb1b2;
+    height:0.36rem;
+    line-height:0.36rem;
+}
+.tkz .tk .kap .right .price{
+    height:0.32rem;
+    width:100%;
+    margin-top:0.3rem;
+}
+.tkz .tk .kap .right .price .l{
+    height:100%;
+    widows: 30%;
+    float:left;
+    display: flex;
+    align-items: center;
+}
+.tkz .tk .kap .right .price .l .yuan1{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
+}
+.tkz .tk .kap .right .price .l .wenz3{
+    font-size:0.26rem;
+    color:#afb1b2;
+    height:0.32rem;
+    line-height:0.32rem;
+}
+.tkz .tk .kap .right .price .r{
+    width:30%;
+    height:100%;
+    float:right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.tkz .tk .kap .right .price .r .yuan2{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
+}
+.tkz .tk .kap .right .price .r .wenz3{
+    height:0.32rem;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tkz .tk .kap .right .price .r .wenz3 span{
+    font-size:0.3rem;
+    color:#afb1b2;
+   /* height:0.32rem;
+    line-height:0.32rem;*/
+    
+}
+.tkz .tk .kap .right .price .r .wenz3 .iconfont{
+    font-size:0.1rem;
+    color:#afb1b2;
+    margin-top:0.06rem;
+  /*  height:0.32rem;
+    line-height:0.32rem;*/
+}
+.tkz .tk .shi{
+    height:1.2rem;
+    width:7.02rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.tkz .tk .shi .yuan3{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
+}
+.tkz .tk .shi .wenz4{
+    color:#fbb548;
+    font-size:0.24rem;
+    height:1.2rem;
+    line-height:1.2rem;
+}
+
+/*联系卖家*/
+.lianx{
+    height:1.06rem;
+    width:7.5rem;
+    background-color:#f1faff;
+    position:fixed;
+    left:0;
+    bottom:0;
+}
+.lianx .butt{
+    height:0.6rem;
+    width:4.54rem;
+    margin:0.24rem auto 0;
+    border-radius:0.3rem;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
+    text-align:center;
+    line-height:0.6rem;
+    font-size:0.2rem;
+    color:white;
+}

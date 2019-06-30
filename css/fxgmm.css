@@ -1,0 +1,137 @@
+body{
+    background: #FBFEFF;
+}
+
+header{
+    width:7.5rem;
+    height:0.88rem;
+    background-color:#FBFEFF;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    font-size:0.38rem;
+    color:#4FBAFC;
+    text-align:center;
+    line-height:0.88rem;
+    position:relative;
+}
+header .back{
+    display:block;
+    width:0.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    left:0.24rem;
+}
+header .iconzuojiantou{
+    font-size:0.4rem;
+    color:#4FBAFC;
+}
+
+.dianzi{
+    width: 7.5rem;
+    height: 2.11rem;
+}
+.wode{
+    width:7.5rem;
+    height:1.08rem;
+  font-size: 0.26rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0 0.33rem;
+  box-sizing: border-box;
+  font-weight: bold;
+  position: relative;
+}
+  
+.wode .quan{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius:50%;
+    background-color: #000000;
+    opacity: 0.3;
+    float: right;
+   
+    margin: 0.2rem 0.05rem;
+}
+
+.wode .lin{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius:0.3rem;
+    background:#34da87;
+    margin:0  0.1rem;
+  
+}
+.wode span{
+    color: #44b5ff;
+}
+.wode .teq{
+    color: #4f5b64;
+}
+.gang{
+    width:4.84rem;
+	height: 0.02rem;
+	background-color: #000000;
+    opacity: 0.05;
+    margin: auto;
+    margin-bottom: 0.39rem;
+}
+.yuan{
+    width: 3.85rem;
+    height: 0.46rem;
+    margin: auto;
+}
+
+.yuan .one{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background: #1c8adf;
+    border: 0.13rem solid #2fa5ff;
+    float: left;
+}
+.yuan .one .son{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #FFF;
+    margin: auto;
+    margin-top: 0.05rem;
+
+}
+.yuan .two{
+    width: 0.46rem;
+    height: 0.46rem;
+    border-radius: 50%;
+    background-color: #e3eef6;
+    margin-left: 0.37rem;
+    float: left;
+   
+}
+.wanc{
+    font-size: 0.22rem;
+    line-height: 0.6rem;
+    width: 4.54rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background: #37e06f;
+        margin:1.23rem auto 1.75rem;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+}
+.bottom{
+    width: 7.5rem;
+    height: 4.32rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
+}
+.bottom img{
+    width: 7.5rem;
+    height: 4.32rem;
+}

@@ -1,0 +1,391 @@
+body{
+    background-color:#FBFEFF;
+}
+header{
+    width:7.5rem;
+    height:0.88rem;
+    background-color:#FBFEFF;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    font-size:0.38rem;
+    color:#4FBAFC;
+    text-align:center;
+    line-height:0.88rem;
+    position:relative;
+}
+header .back{
+    display:block;
+    width:0.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    left:0.24rem;
+}
+header .iconzuojiantou{
+    font-size:0.4rem;
+    color:#4FBAFC;
+}
+.addBox{
+    display:block;
+    width:7.02rem;
+    height:1.63rem;
+    border-radius:0.08rem;
+    background-color:rgba(230,245,254,0.5);
+    margin:0.27rem auto 0;
+    overflow:hidden;
+}
+.addBox .name{
+    width:6.37rem;
+    height:0.48rem;
+    margin:0.33rem auto 0;
+    line-height:0.48rem;
+    color:#38A8FC;
+}
+.addBox .name .ming{
+    font-size:0.24rem;
+    margin-right:0.38rem;
+}
+.addBox .name .tel{
+    font-size:0.3rem;
+    font-weight:bold;
+}
+.addBox .name i{
+    font-size:0.24rem;
+    float:right;
+}
+.addBox .addr{
+    width:3.7rem;
+    height:0.34rem;
+    margin-left:1.5rem;
+    line-height:0.34rem;
+    font-size:0.22rem;
+    color:rgba(0,0,0,0.5);
+}
+.dan{
+    width:7.02rem;
+    height:2.37rem;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+}
+.dan .bgbox{
+    width:1.74rem;
+    height:1.74rem;
+    border-radius:0.1rem;
+    background-color:#fff;
+    box-shadow:0 0 0.21rem 0.01rem rgba(222,222,222,0.43);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:0.22rem;
+}
+.dan .bgbox .bgtu{
+    width:1.19rem;
+    height:1.25rem;
+}
+.dan .danCon{
+    width:3.2rem;
+    height:1.74rem;
+}
+.dan .danCon .con1{
+    height:0.46rem;
+    line-height:0.46rem;
+    font-size:0.3rem;
+    color:rgba(0,0,0,0.8);
+    margin-top:0.26rem;
+}
+.dan .danCon .con2{
+    height:0.34rem;
+    line-height:0.34rem;
+    font-size:0.22rem;
+    color:rgba(0,0,0,0.3);
+}
+.dan .danCon .con3{
+    height:0.68rem;
+    line-height:0.68rem;
+    font-size:0.24rem;
+    color:#38A8FC;
+}
+.dan .danCon .con32{
+    font-size:0.3rem;
+    font-weight:bold;
+}
+.liuBox{
+    width:7.02rem;
+    height:0.81rem;
+    margin:0.27rem auto 0;
+    display:flex;
+    align-items:center;
+}
+.dians{
+    width:0.1rem;
+    height:0.06rem;
+    border-radius:0.03rem;
+    background-color:rgba(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.06rem;
+}
+.liuBox .leave{
+    font-size:0.26rem;
+    font-weight:bold;
+    color:#45B5FD;
+}
+.messBox{
+    width:7.02rem;
+    height:2.94rem;
+    border-radius:0.08rem;
+    background-color:rgba(230,245,254,0.5);
+    margin:0 auto;
+    padding:0.32rem;
+    box-sizing:border-box;
+}
+.messBox textarea{
+    width:100%;
+    height:0.9rem;
+    line-height:0.45rem;
+    font-size:0.3rem;
+    background-color:transparent;
+    border:0;
+    outline:none;
+    resize:none;
+}
+.messBox textarea::-webkit-input-placeholder{
+    font-size:0.24rem;
+    color:#B9C8D1;
+}
+.messBox .photo{
+    width:1.01rem;
+    height:1.01rem;
+    border-radius:0.1rem;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
+    line-height:1.01rem;
+    text-align:center;
+    margin-top:0.25rem;
+}
+.messBox .photo i{
+    font-size:0.42rem;
+    color:#fff;
+}
+.yuBox{
+    width:7.02rem;
+    height:0.82rem;
+    margin:0.66rem auto 0;
+    display:flex;
+    justify-content:space-between;
+}
+.yuBox .yue{
+    width:1.5rem;
+    height:0.82rem;
+    display:flex;
+    align-items:center;
+}
+.yuBox .sp{
+    font-size:0.26rem;
+    font-weight:bold;
+    color:#43B2FA;
+}
+.yuBox .sp1{
+    color:#4E5A63;
+}
+.yuBox .times{
+    width:4rem;
+    height:0.82rem;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+.yuBox .sp2{
+    color:#B8C8D1;
+    margin-right:0.15rem;
+}
+.yuBox .times .tt{
+    display:block;
+    font-size:0.3rem;
+    font-weight:bold;
+    color:#38A8FC;
+}
+footer{
+    width:7.5rem;
+    height:1.08rem;
+    background-color:#F0F9FF;
+    position:fixed;
+    bottom:0;
+    left:0;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
+footer .footLeft{
+    width:2rem;
+    height:1.08rem;
+    float:left;
+    display:flex;
+    align-items:center;
+}
+footer .footLeft .dian{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.05rem;
+}
+footer .footLeft .ss{
+    font-size:0.24rem;
+    color:rgba(61,172,252,0.6);
+}
+footer .footLeft .ss1{
+    font-size:0.36rem;
+    font-weight:bold;
+}
+footer .btn{
+    display:block;
+    width:3.5rem;
+    height:0.6rem;
+    float:right;
+    margin-top:0.24rem;
+}
+footer button{
+    width:3.5rem;
+    height:0.6rem;
+    border-radius:0.3rem;
+    border:0;
+    outline:none;
+    background-color:#3bacfe;
+    box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);
+    font-size:0.24rem;
+    color:#fff;
+    
+}
+
+/* 选择时间 */
+.timeBg{
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.8);
+    position:fixed;
+    top:0;
+    left:0;
+    display:none;
+}
+.timeBg .timeBox{
+    width:7.5rem;
+    height:7.97rem;
+    background-color:#fff;
+    position:absolute;
+    bottom:0;
+}
+.timeBox .xuan{
+    width:7.02rem;
+    height:0.87rem;
+    margin:0 auto;
+    position:relative;
+}
+.timeBox .xuan .cuo{
+    display:block;
+    width:0.28rem;
+    height:0.28rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    right:0;
+}
+.timeBox .xuan .cuo .iconerror{
+    font-size:0.24rem;
+    color:#D0DCE5;
+}
+.timeBox .xuan .title{
+    width:100%;
+    height:0.87rem;
+    line-height:0.87rem;
+    text-align:center;
+    font-size:0.2rem;
+    font-weight:bold;
+    color:#000;
+}
+.timeBox .selbox{
+    width:7.5rem;
+    height:1.08rem;
+    background-color:rgba(66,178,250,0.1);
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:space-between;
+}
+.timeBox .selbox .today{
+    width:2rem;
+    height:1.08rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.timeBox .selbox .today .jin{
+    font-size:0.24rem;
+    font-weight:bold;
+    color:#43B2FA;
+}
+.timeBox .selbox .today .sj{
+    font-size:0.24rem;
+    color:rgba(56,168,252,0.6);
+}
+.timeBox .selbox .today1{
+    position:relative;
+}
+.timeBox .selbox .today1 .yy{
+    width:2rem;
+    height:0.09rem;
+    background:linear-gradient(to right,#33DF71,#2ED59A);
+    background:-webkit-linear-gradient(left,#33DF71,#2ED59A);
+    box-shadow:0 0 0.1rem 0.01rem rgba(51,222,118,0.75);
+    position:absolute;
+    bottom:0;
+}
+.timeBox .bigbox{
+    width:7.02rem;
+    height:auto;
+    overflow:hidden;
+    margin:0.4rem auto 0;
+}
+.timeBox .bigbox .moment{
+    width:1.755rem;
+    height:0.81rem;
+    border-radius:0.08rem;
+    text-align:center;
+    line-height:0.81rem;
+    color:#38A8FC;
+    font-size:0.3rem;
+    font-weight:bold;
+    float:left;
+    margin-bottom:0.05rem;
+}
+.timeBox .bigbox .moment1{
+    color:#C1CCD5;
+}
+.timeBox .bigbox .moment2{
+    color:#fff;
+    background-color:#38A8FC;
+    box-shadow:0 0.03rem 0.12rem 0.05rem rgba(61,172,252,0.43);
+}
+.timeBox .sure{
+    display:block;
+    width:4.65rem;
+    height:0.6rem;
+    margin:0.32rem auto 0;
+}
+.timeBox .sure button{
+    width:4.65rem;
+    height:0.6rem;
+    border-radius:0.3rem;
+    border:0;
+    outline:none;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
+    font-size:0.24rem;
+    color:#fff;
+}

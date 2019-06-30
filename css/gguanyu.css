@@ -1,0 +1,149 @@
+body{
+    background: #FBFEFF;
+}
+
+.top{
+    height:0.88rem;
+    width: 7.5rem;
+    background: #fbfeff;
+  
+    text-align: center;
+    position:relative;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    position: relative;
+}
+.top i{
+   color:  #36a8fe;
+   width: 0.25rem;
+   height: 0.42rem;
+   position: absolute;
+   left: 0.24rem;
+   bottom: 0.45rem;
+}
+
+.top p{
+    color: #4ebbfe;
+}
+.wode{
+    width:7.5rem;
+    height:1.58rem;
+  font-size: 0.26rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0 0.33rem;
+  box-sizing: border-box;
+  font-weight: bold;
+  position: relative;
+}
+  
+.wode .quan{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius:50%;
+    background-color: #000000;
+    opacity: 0.3;
+    float: right;
+   
+    margin: 0.2rem 0.05rem;
+}
+
+.wode .lin{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius:0.3rem;
+    background: #44b5ff;
+    margin:0  0.12rem 0 0.12rem;
+    box-shadow: 0px 2px 5px 0px 
+		rgba(68, 181, 255, 0.43);
+  
+}
+.wode span{
+    color: #44b5ff;
+}
+.wode .teq{
+    color: #4f5b64;
+}
+.gang{
+    width: 6.96rem;
+	height: 0.02rem;
+	background-color: #000000;
+    opacity: 0.05;
+    margin: auto;
+   
+}
+.wenzi{
+    width: 6.42rem;
+   
+  
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.5;
+    line-height: 0.4rem;
+    font-weight: bold;
+    margin: 0.78rem auto 0;
+}
+.wen{
+    width: 6.42rem;
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.5;
+    line-height: 0.4rem;
+    font-weight: bold;
+    margin: 0.8rem auto 0.71rem;
+
+}
+
+img{
+    display: block;
+    width: 1.1rem;
+    height: 1.45rem;
+    margin: 0.82rem  auto 0;
+}
+.weixin{
+    width: 7.5rem;
+    height: 1rem;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    line-height: 1rem;
+    font-size: 0.28rem;
+   
+
+
+}
+.weixin .weison span{
+    color:#000000;
+	opacity: 0.5;
+}
+
+
+.weixin .weison{
+    float: left;
+   height: 1rem;
+   display: flex;
+   align-items: center;
+}
+.weixin .dian{
+    float:right;
+    color: #4ebbfe;
+}
+.weixin .weison span{
+    float: left;
+}
+
+.linlin{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.3rem;
+    background: #44b5ff;
+   
+  
+    margin-right: 0.15rem;
+    box-shadow: 0px 2px 5px 0px 
+		rgba(68, 181, 255, 0.43);
+}
+.weixin .dian .span{
+    color: #68ce8a;
+}

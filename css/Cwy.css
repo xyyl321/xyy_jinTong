@@ -1,0 +1,153 @@
+body{
+    background-color:#FBFEFF;
+}
+.dd{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: #FBFEFF;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.36rem;
+    color: #58BFFE;
+}
+.dd a{
+    float: left;
+    line-height: 0.88rem;
+    font-size: 0.4rem;
+    color: #36A8FE;
+}
+.dd i{
+    float: right;
+    font-size: 0.36rem;
+}
+.fl{
+    width: 7.5rem;
+    height: 0.86rem;
+    background: #fff;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+.fl span{
+    line-height: 0.86rem;
+    font-size: 0.28rem;
+    color: #4EB4FE;
+}
+.fl .zh{
+    color: #42D989;
+}
+.sp{
+    width: 7.5rem;
+    height: 2.13rem;
+    background: #fff;
+    margin-top: 0.2rem;
+    padding: 0.2rem 0.24rem;
+    box-sizing: border-box;
+}
+.sp .sp1{
+    width: 1.74rem;
+    height: 1.78rem;
+    background: #42D989;
+    float: left;
+    box-shadow: 0px 1px 21px 0px 
+		rgba(223, 223, 223, 0.43);
+}
+.sp .sp1 img{
+    width: 1.74rem;
+    height: 1.78rem;
+}
+.sp .sp2{
+    width: 5.13rem;
+    height: 1.78rem;
+    float: left;
+    position: relative;
+}
+.sp2 .ybf{
+    width: 5.13rem;
+    height: 0.42rem;
+}
+.sp .sp2 .spz1{
+    font-size: 0.28rem;
+    color: #646666;
+    font-weight: bold;
+    float: left;
+}
+.sp .sp2 .spz2{
+    font-size: 0.24rem;
+    color: #979899;
+    font-weight: bold;
+    float: left;
+    padding-top: 0.1rem;
+    margin-left: 0.2rem;
+}
+.sp .sp2 .ebf{
+    width: 5.13rem;
+    height: 0.42rem;
+}
+.sp2 .dian{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44B5FF;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.55rem;
+}
+.sp2 .dian1{
+    left: 1.35rem;
+}
+.sp .sp2 .spz3{
+    font-size: 0.24rem;
+    color: #979899;
+    font-weight: bold;
+    margin-left: 0.2rem;
+}
+.sp .sp2 .spz4{
+    font-size: 0.24rem;
+    color: #37A8FE;
+    font-weight: bold;
+    margin-left: 0.1rem;
+}
+.sp .sp2 .zbf{
+    width: 5.13rem;
+    height: 0.5rem;
+}
+.sp .sp2 .zbf span{
+    width: 1.2rem;
+    height: 0.35rem;
+    border-radius: 0.5rem;
+    background: #E7F6FF;
+    float: left;
+}
+.zbf span{
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.35rem;
+    color: #47B0FE;
+    margin-top: 0.05rem;
+}
+.sp .sp2 .ddf{
+    width: 5.13rem;
+    height: 0.44rem;
+    position: relative;
+}
+.sp .sp2 .ddf .yuan{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #4EDB90;
+    border-radius: 50%;
+    position: absolute;
+    top:0.15rem;
+}
+.sp .sp2 .ddf span{
+    color: #B2B4B5;
+    font-size: 0.2rem;
+    margin-left: 0.2rem;
+}
+.sp .sp2 .ddf .qian{
+    float: right;
+    color: #FBB548;
+    font-size: 0.28rem;
+}

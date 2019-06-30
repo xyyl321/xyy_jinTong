@@ -1,0 +1,237 @@
+body{
+    background-color:#FBFEFF;
+}
+.dd{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: #FBFEFF;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.36rem;
+    color: #58BFFE;
+}
+.dd a{
+    float: left;
+    line-height: 0.88rem;
+    font-size: 0.3rem;
+    color: #36A8FE;
+}
+.dd i{
+    float: right;
+    font-size:0.4rem;
+}
+.fl{
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color:#FBFEFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.54rem;
+    box-sizing: border-box;
+}
+.fl .fl1{
+    width: 1.33rem;
+    height: 0.52rem;
+    background: #E7F6FF;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: #43AFFE;
+    font-size: 0.2rem;
+    line-height: 0.52rem;
+}
+.fl .fl2{
+    color: #fff;
+    background: #3BACFE;
+    font-size: 0.2rem;
+    line-height: 0.52rem;
+    box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);
+}
+.tt{
+    width: 7.5rem;
+    height: 2.45rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tt .tt1{
+    width: 1.45rem;
+    height:1.9rem;
+}
+.tt .tt1 img{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+}
+.tt .tt1 p{
+    text-align: center;
+    font-size: 0.24rem;
+    color: #8F9498;
+    font-weight: bold;
+}
+.qb{
+    width: 7.5rem;
+    height: 0.76rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.qb p{
+    float: left;
+    line-height: 0.76rem;
+}
+.qb .bian{
+    width:0.1rem;
+    height:0.06rem;
+    float: left;
+    border-radius:0.03rem;
+    background-color:rgba(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.06rem;
+    margin-top: 0.3rem;
+}
+.qb .qb1{
+    color: #41B2FC;
+    font-weight: bold;
+    font-size: 0.32rem;
+}
+.qb .qb2{
+    color: #4F5B64;
+    font-weight: bold;
+    font-size: 0.32rem;
+}
+.sp{
+    width: 7.5rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.sp .spt{
+    width: 1.97rem;
+    height: 1.97rem;
+    background: #4F5B64;
+    float: left;
+    box-shadow: 0px 1px 21px 0px 
+		rgba(223, 223, 223, 0.43);
+}
+.sp .spt img{
+    width: 1.97rem;
+    height: 1.97rem;
+}
+.sp p{
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #646666;
+    padding-top: 0.15rem;
+    margin-left: 2.2rem;
+}
+.sp .pp{
+    font-size: 0.22rem;
+    font-weight: bold;
+    padding-top:0;
+    color: #AFB1B2;
+    margin-left: 2.2rem;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.sp .xian{
+    width: 4.8rem;
+    height: 0.98rem;
+    margin-left: 2.2rem;
+    margin-top: 0.15rem;
+    border-top: 0.01rem solid #F3F7F9;
+    padding-top: 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+}
+.sp .xian .zzt{
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+.sp .xian .dian{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #36A8FE;
+    border-radius: 50%;
+}
+.sp .xian span{
+    float: left;
+    font-size: 0.2rem;
+    margin-left: 0.1rem;
+    color: #B0B2B3;
+    font-weight: bold;
+}
+.sp .xian .pp2{
+    float: left;
+    font-size: 0.3rem;
+    margin-left: 0.1rem;
+    padding-top: 0;
+    font-weight: bold;
+    color: #45AEFE;
+}
+.sp .xian .dian1{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #39D683;
+    border-radius: 50%;
+    margin-left: 0.4rem;
+}
+.sp .xian pre{
+    font-size: 0.26rem;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    bottom: 0.2rem;
+    color: #FBC26B;
+}
+.sp .xian i{
+    position: absolute;
+    left: 0;
+    top: 0.55rem;
+    font-size: 0.35rem;
+    color: #85C7FF;
+}
+.sp .xian .bds{
+    position: absolute;
+    left: 0.5rem;
+    top: 0.6rem;
+    font-size: 0.2rem;
+    color: #D2D2D2;
+    font-weight: bold
+}
+.dh{
+    width:7.5rem;
+    height:0.98rem;
+    background: #F6FBFF;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    }
+    .dh .dh1{
+    width:0.94rem;
+    height:0.98rem;
+    }
+    .dh .dh1 a{
+    display:block;
+    width:0.94rem;
+    height:0.98rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    }
+    .dh .dh1 i{
+    font-size: 0.5rem;
+    color: #BAE6FF;
+    }
+    .dh .dh1 span{
+    font-size: 0.26rem;
+    color: #BAE6FF;
+    }

@@ -1,0 +1,205 @@
+
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    display: flex;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+}
+.header .iconzuojiantou{
+    display: block;
+    font-size:0.42rem;
+    margin-left:0.24rem;
+    color:#36a8fe;
+    line-height: 0.88rem;
+}
+.header .title{
+    margin-left:2.2rem;
+    margin-top:0.17rem;
+    font-size:0.38rem;
+    color:#4ebbfe;
+}
+.banner{
+    width:7.5rem;
+    height:7.28rem;
+    overflow: hidden;
+}
+.banner img{
+    width:3.17rem;
+    height:3.33rem;
+    display: block;
+    margin:1.84rem 0  0  1.67rem;
+}
+.bigbox{
+    width:7.5rem;
+    height:auto;
+    padding:0 0.25rem;
+    box-sizing: border-box;
+}
+.bigbox .title{
+    width:7.02rem;
+    height:auto;
+    font-size: 0.3rem;
+    color:#646666;
+}
+.bigbox .min-title{
+    width:7.02rem;
+    height:auto;
+    font-size: 0.22rem;
+    color:#afb1b2;
+    line-height:0.3rem;
+    margin-top:0.1rem;
+}
+.bigbox .many{
+    width:7.02rem;
+    height:0.72rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #f0f5f7;
+}
+.bigbox .many .sum{ 
+    font-size: 0.26rem;
+    color: #fbb548;
+}
+.bigbox .many .volume {
+    display: flex;
+    align-items: center;
+}
+.bigbox .many .volume .style{
+    width: 0.06rem;
+	height: 0.06rem;
+	background-color:rgb(54,214,129);
+	box-shadow: 0rem 0.02rem 0.05rem 0rem 
+		rgba(54, 214, 129, 0.43);
+    border-radius: 50%;
+    
+}
+.bigbox .many .volume .quantity{
+    font-size: 0.2rem;
+    color:#afb1b2;
+    line-height:0.92rem;
+    margin-left:0.15rem;
+}
+.bigbox .many .volume .number{
+    font-size: 0.2rem;
+    color: #36a8fe;
+    line-height:0.92rem;
+    margin-left:0.05rem;
+}
+.bigbox .coupon {
+    width:7.02rem;
+    height:0.86rem;
+    display:flex;
+    align-items:center;
+    border-bottom: 0.01rem solid #f0f5f7;
+}
+.bigbox .coupon img{
+    width:0.49rem;
+    height:0.4rem;
+    display: block;
+    float: left;
+}
+.bigbox .coupon .text{
+    color: #ff844e;
+    font-size:0.24rem;
+    display: block;
+    float: left;
+    margin-left:0.2rem;
+    margin-top:0.03rem;
+}
+.bigbox .coupon .reduction{
+    width: 1.84rem;
+    height: 0.39rem;   
+    float: left;
+    text-align:center;
+    line-height:0.39rem;
+    color:#fff;
+    border-radius: 0.2rem;
+    background:linear-gradient(left,#ff963b,#ffc73b);
+    background:-webkit-linear-gradient(left,#ff963b,#ffc73b);
+    font-size: 0.24rem;
+    margin-left:0.13rem; 
+}
+.bigbox .serve{
+    width:7.02rem;
+    height:auto;
+    display: flex;
+}
+.bigbox .serve .box{
+    display: flex;
+}
+.bigbox .serve .box .style{
+    width: 0.05rem;
+	height: 0.05rem;
+	background-color: #36d681;
+	box-shadow: 0rem 0.02rem 0.05rem 0rem 
+		rgba(54, 214, 129, 0.43);
+    border-radius: 0.03rem;
+    margin-top:0.42rem;
+}
+.bigbox .serve .box .text{
+    color:#41b2fc;
+    font-size:0.24rem;
+    margin-top:0.28rem;
+    margin-left:0.1rem;
+}
+.bigbox .serve .box2{
+    margin-left:0.82rem;
+}
+.tab{
+    margin-top:0.86rem;
+    width:7.5rem;
+    height:0.98rem;
+    display: flex;
+    padding:0 0.25rem;
+    box-sizing: border-box;
+    background:#f1faff;
+}
+.tab .store {
+    width:0.74rem;
+    height:0.98rem;
+    display: block;
+}
+.tab .store img{
+    width:0.5rem;
+    height:0.5rem;
+    display: block;
+    margin:0 auto;
+    margin-top:0.1rem;
+}
+.tab .store .text{
+    font-size: 0.2rem;
+    color: #3bacfe;
+    text-align: center;
+}
+.tab  .relation{
+    width:1.2rem;
+    margin-left:0.45rem;
+}
+.tab  .relation .text{
+    color:#99ebc2;
+}
+.tab  .add{
+   text-align:center;
+   font-size: 0.2rem;
+   color:#fff;
+   width: 1.96rem;
+   height: 0.6rem;
+   line-height:0.6rem;
+   background:linear-gradient(left,#37df73,#32d698);
+   background:-webkit-linear-gradient(left,#37df73,#32d698);
+   border:0;
+   float:right;
+   outline:none;
+   border-radius: 0.3rem;
+   display: block;
+   margin:0.24rem 0  0  0.5rem;
+   box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
+}
+.tab  .order{
+    background:0;
+    float:right;
+    background-color:#3bacfe;
+    margin-left:0.29rem;
+    box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);
+}

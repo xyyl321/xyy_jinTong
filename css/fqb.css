@@ -1,0 +1,113 @@
+body{
+    background-color:#FBFEFF;
+}
+.dd{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: #FBFEFF;
+    padding:0 0.24rem;
+    font-size: 0.36rem;
+   box-sizing: border-box;
+    text-align: center;
+    line-height: 0.88rem;
+    color: #58BFFE;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+}
+.dd a{
+    float: left;
+    line-height: 0.88rem;
+    font-size: 0.3rem;
+    color: #36A8FE;
+}
+.kk{
+    width: 7.5rem;
+    height: 3.5rem;
+    margin-top: 0.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.02rem solid #F6FAFB;
+}
+.kk .kk1{
+    width: 2.2rem;
+    height: 1.17rem;
+    background: #F1FAFF;
+    margin-top: 0.2rem;
+    float: left;
+    margin-left: 0.2rem;
+    text-align: center;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.kk .kk1 img{
+    width: 0.35rem;
+    height: 0.35rem;
+    position: absolute;
+    right: 0;
+    top: 0.1rem;
+}
+.kk .kk2{
+    margin-left: 0;
+}
+.kk .kk3{
+    background: #36A8FE;
+}
+.kk .kk3 .yy1{
+    margin-top: 0.1rem;
+    color: #fff;
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+.kk .kk3 .yy2{
+    color: #fff;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.kk .kk1 .y1{
+    margin-top: 0.1rem;
+    color: #42AAF9;
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+.kk .kk1 .y2{
+    color: #42AAF9;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.kk .kk1 span{
+    color: #C8DEEA;
+    font-size: 0.24rem;
+    display: block;
+    margin-top: 0.22rem;
+}
+.cz{
+    width: 7.5rem;
+    height: 1.13rem;
+    padding: 0 0.24rem;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+.cz .cz1{
+    width: 5rem;
+    height: 0.86rem;
+    background: #F1FAFF;
+    float: left;
+    margin-top: 0.15rem;
+    border-radius: 0.05rem;
+    line-height: 0.86rem;
+    color: #A8C3D8;
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+.cz .cz2{
+    width: 1.8rem;
+    height: 0.76rem;
+    background: #35D595;
+    float: right;
+    margin-top: 0.2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    line-height: 0.76rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.24rem;
+}

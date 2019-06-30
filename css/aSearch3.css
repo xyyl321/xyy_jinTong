@@ -1,0 +1,315 @@
+/* header */
+.header{
+    width: 100%;
+    height: 0.88rem;
+    float: left;
+    background:#FBFEFF;
+    position: fixed;
+    z-index: 9;
+}
+body{
+    background:#FBFEFF;
+}
+.header_w{
+    width: 7.02rem;
+    height: 100%;
+    text-align: center;
+    line-height: 0.88rem;
+    margin: 0 auto;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+.header_w a .iconfont{
+    font-size: 0.4rem;
+    float: left;
+    color: #4ebbfe;
+    display: block;
+}
+/* 搜索框 */
+.select{
+    width: 100%;
+    height: 0.6rem;
+    float: left;
+    margin-top: 0.88rem;
+}
+.select_w{
+    width: 7.02rem;
+    height: 100%;
+    background: #f2faff;
+    margin: 0 auto;
+    line-height: 0.6rem;
+    border-radius: 0.6rem;
+}
+.select_w .put{
+    width: 7.02rem;
+    height: 0.6rem;
+    border-radius:0.3rem;
+    background-color:#F1F9FF;
+    border:0.03rem solid #EBF7FF;
+    box-sizing:border-box;
+    margin:0 auto 0.2rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.select_w .put input{
+    width:5.5rem;
+    height:0.6rem;
+    border:0;
+    outline:none;
+    background-color:transparent;
+    margin-left:0.24rem;
+    font-size:0.24rem;
+    color:rgba(0,0,0,0.5);
+}
+.select_w input::-webkit-input-placeholder{
+    font-size:0.24rem;
+    color: rgba(0,0,0,0.5);
+}
+.select_w .sou{
+    width:0.79rem;
+    height:0.44rem;
+    border-radius:0.22rem;
+    background-color:#A3DFBD;
+    text-align:center;
+    line-height: 0.44rem;
+    margin-right:0.1rem;
+}
+.select_w .put .sou .iconfont{
+    font-size: 0.42rem;
+    display: block;
+    color: #E5F6EC;
+}
+/* content */
+.section{
+    width: 100%;
+    height: 3.48rem;
+    position: relative;
+    float: left;
+    margin-top: 0.2rem;
+}
+.section_w{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.section_w .sec{
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+}
+.section_w .sec .nav {
+    height: 0.88rem;
+    width: 100%;
+    float: left;
+    padding-left: 0.4rem;
+    display: flex;
+    align-items: center;
+}
+.section_w .sec .nav span {
+    font-size: 0.32rem;
+    float: left;
+    font-weight: bold;
+}
+.section_w .nav span:nth-child(1) {
+    width:0.1rem;
+    height:0.06rem;
+    border-radius:0.03rem;
+    float: left;
+    background-color:rgba(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.06rem;
+}
+.section_w .nav span:first {
+    width: 0.12rem;
+    height: 0.05rem;
+    float: left;
+    background: #41b2fc;
+}
+.con {
+    width: 7.02rem;
+    height: 2.46rem;
+    margin: 0 auto;
+    float: left;
+    margin-left: 0.4rem;
+    box-sizing: border-box;
+    margin-top: 0.6rem;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.05);
+}
+.con .pho{
+    width: 1.74rem;
+    height: 1.74rem;
+    float: left;
+    display: block;
+}
+.con .pho a img {
+    width: 1.74rem;
+    height: 1.74rem;
+    display: block;
+}
+.con .wei {
+    width: 4.8rem;
+    height: 100%;
+    float: right;
+    display: block;
+    position: relative;
+}
+.con .wei .lll{
+    font-size: 0.32rem;
+    color: #fbb548;
+    position: absolute;
+    right: 0.24rem;
+    bottom: 0.2rem;
+}
+.con .wei .cash {
+    width: 100%;
+    height: 0.32rem;
+    line-height: 0.32rem;
+}
+.con .wei .cash span:nth-child(1) {
+    float: left;
+    font-size: 0.32rem;
+    color: #646666;
+}
+.con .wei .cash span:nth-child(2) {
+    float: right;
+    font-size: 0.32rem;
+    color: #fbb548;
+    margin-right: 0.23rem;
+}
+.con .wei .ping {
+    width: 50%;
+    height: 0.52rem;
+    margin-top: 0.12rem;
+    float: left;
+    line-height: 0.52rem;
+}
+.con .wei .ping span:nth-child(1) {
+    float: left;
+    background: #41b2fc;
+    margin-bottom: 0.1rem;
+    margin: 0 0.1rem;
+    margin-top: 0.25rem;
+    box-sizing: border-box;
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.07rem;
+}
+.con .wei .ping span:nth-child(2) {
+    float: left;
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+}
+.con .wei .ping span:nth-child(3) {
+    float: left;
+    font-size: 0.26rem;
+    color: #36a8fe;
+    margin-left: 0.2rem;
+}
+.con .wei .rect {
+    width: 50%;
+    height: 0.52rem;
+    margin-top: 0.12rem;    
+    float: left;
+    line-height: 0.52rem;
+}
+.con .wei .rect span:nth-child(1) {
+    float: left;
+    background: #41b2fc;
+    margin-bottom: 0.1rem;
+    margin: 0 0.1rem;
+    margin-top: 0.25rem;
+    box-sizing: border-box;
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.07rem;
+}
+.con .wei .rect span:nth-child(2) {
+    float: left;
+    font-size: 0.22rem;
+    color: #afb1b2;
+}
+.con .wei .rect span:nth-child(3) {
+    float: left;
+    font-size: 0.26rem;
+    color: #36a8fe;
+    margin-left: 0.05rem;
+}
+.con .wei .rect span:nth-child(3) span{
+    float: left;
+    font-size: 0.26rem;
+    color: #b9e1ff;;
+    margin-left: 0.05rem;
+    position: absolute;
+    right: 1.85rem;
+    top: 0.15rem;
+}
+.con .wei .price {
+    float: left;
+    width: 30%;
+    height: 0.36rem;
+    margin-top: 0.12rem;
+    margin-bottom: 0.15rem;
+}
+.con .wei .price span {
+    float: left;
+    font-size: 0.20rem;
+    line-height: 0.36rem;
+    color: #36a8fe;
+    background: #e7f6ff;
+    border: 1px solid #e7f6ff;
+    border-radius: 0.26rem;
+    padding: 0.02rem 0.2rem;
+}
+.con .wei .let {
+    width: 50%;
+    float: right;
+}
+
+.con .wei .let a span {
+    float: right;
+    color: white;
+    display: block;
+    background: #41b2fc;
+    font-size: 0.26rem;
+    border-radius: 0.26rem;
+    padding: 0.02rem 0.2rem;
+    text-align: center;
+    margin-right: 0.2rem;
+}
+.sale {
+    width: 100%;
+    height: 1rem;
+    float: left;
+    text-align: center;
+}
+.sale p{
+    float: left;
+    line-height: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 33.3%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    font-size: 0.3rem;
+    color: #36a8fe;
+    padding-left: 0.6rem;
+}
+.sale .aa{
+    color:#36d681;
+}
+.section .bb{
+    z-index: 9;
+}

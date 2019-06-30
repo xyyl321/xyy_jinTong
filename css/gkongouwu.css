@@ -1,0 +1,59 @@
+body{
+    background: #FBFEFF;
+    font-weight: bold;
+}
+
+header{
+  width:7.5rem;
+  height:0.88rem;
+  background-color:#FBFEFF;
+  box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+  font-size:0.38rem;
+  color:#4FBAFC;
+  text-align:center;
+  line-height:0.88rem;
+  position:relative;
+}
+header .back{
+  display:block;
+  width:0.4rem;
+  height:0.4rem;
+  line-height:0.4rem;
+  position:absolute;
+  top:0;
+  bottom:0;
+  margin:auto;
+  left:0.24rem;
+}
+header .iconzuojiantou{
+  font-size:0.4rem;
+  color:#4FBAFC;
+}
+
+img{
+    display: block;
+    width: 4rem;
+    height: 3.88rem;
+    margin: 3.17rem auto 0.5rem;
+}
+.aa{
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.4;
+    line-height:0.35rem;
+  text-align: center;
+}
+ .pp{
+    display: block;
+    width: 1.96rem;
+    height: 0.6rem;
+  background:linear-gradient(#37e06f,#31d69a);
+    color: #ffffff;
+    font-size: 0.2rem;
+    border-radius: 0.3rem;
+  margin: auto;
+    line-height: 0.6rem;
+    text-align: center;
+    margin-top:0.5rem;
+  
+}

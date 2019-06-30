@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    background-color:#fbfeff;
+}
+
+/* 导航栏开始 */
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:#fbfeff;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    position:fixed;
+    top:0;
+    text-align:center;
+    line-height:0.88rem;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    font-size:0.36rem;
+    color:#4ebbfe;
+}
+.header .iconzuojiantou{
+    font-size:0.4rem;
+    position: absolute;
+    left:0.24rem;
+    top:0rem;
+    color:#36a8fe;
+}
+
+/*退款信息卡片*/
+.kp{
+    width:7.5rem;
+    height:3rem;
+    margin-top:1.4rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
+.tk{
+    width:7.02rem;
+    height:3rem;  
+    box-sizing:border-box;
+    border-bottom:0.02rem solid #f1f4f5;
+}
+.tk .kap{
+    height:1.8rem;
+    width:7.02rem;
+    box-sizing:border-box;
+}
+.tk .kap .left{
+   width:1.74rem;
+   height:1.74rem; 
+   border-radius:0.2rem;
+   overflow:hidden;
+   float:left;
+   margin-right:0.26rem;
+   box-shadow:0 0 0.1rem 0.01rem #f5f8f9; 
+}
+.tk .kap .right{
+    width:5.02rem;
+    height:1.78rem;
+    float:left;
+}
+.tk .kap .right .name{
+    height:0.44rem;
+    width:5.02rem;
+    color:#646666;
+    font-size:0.3rem;
+    font-weight:bold;
+}
+.tk .kap .right .lw{
+    height:0.36rem;
+    width:5.02rem;
+    display: flex;
+    align-items: center;
+}
+.tk .kap .right .lw .yuan{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
+}
+.tk .kap .right .lw .wenz{
+    font-size:0.26rem;
+    color:#36a8fe;
+    height:0.36rem;
+    line-height:0.36rem;
+}
+.tk .kap .right .lw .wenz2{
+    font-size:0.2rem;
+    color:#afb1b2;
+    height:0.36rem;
+    line-height:0.36rem;
+}
+.tk .kap .right .price{
+    height:0.32rem;
+    width:100%;
+    margin-top:0.3rem;
+}
+.tk .kap .right .price .l{
+    height:100%;
+    widows: 30%;
+    float:left;
+    display: flex;
+    align-items: center;
+}
+.tk .kap .right .price .l .yuan1{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
+}
+.tk .kap .right .price .l .wenz3{
+    font-size:0.26rem;
+    color:#afb1b2;
+    height:0.32rem;
+    line-height:0.32rem;
+}
+.tk .kap .right .price .r{
+    width:30%;
+    height:100%;
+    float:right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.tk .kap .right .price .r .yuan2{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
+}
+.tk .kap .right .price .r .wenz3{
+    height:0.32rem;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tk .kap .right .price .r .wenz3 span{
+    font-size:0.3rem;
+    color:#afb1b2;
+   /* height:0.32rem;
+    line-height:0.32rem;*/
+    
+}
+.tk .kap .right .price .r .wenz3 .iconfont{
+    font-size:0.1rem;
+    color:#afb1b2;
+    margin-top:0.06rem;
+  /*  height:0.32rem;
+    line-height:0.32rem;*/
+}
+.tk .shi{
+    height:1.2rem;
+    width:7.02rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.tk .shi .yuan3{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
+}
+.tk .shi .wenz4{
+    color:#fbb548;
+    font-size:0.24rem;
+    height:1.2rem;
+    line-height:1.2rem;
+}
+/*仅退款*/
+.jtk{
+    height:1.26rem;
+    margin-top:0.38rem;
+    width:7.5rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
+.jtk a{
+    display:block;
+    width:7.02rem;
+    height:1.26rem;
+}
+.jtk a .l{
+    width:7.02rem;
+    height:0.4rem;
+    display: flex;
+    align-items: center;
+}
+.jtk a .l .both{
+    width:0.1rem;
+    height:0.06rem;
+    border-radius:0.03rem;
+    background-color:rgba(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.08rem;
+}
+.jtk a .l .both1{
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+}
+.jtk a .l .hs{
+    height:0.4rem;
+    width:6rem;
+    color:#41b2fc;
+    font-size:0.26rem;
+    font-weight:bold;
+    line-height:0.4rem;
+}
+.jtk a .l .hs1{
+    color:#44d98a;
+}
+.jtk a .text{
+    margin-left:0.16rem;
+    color:#afb1b2;
+    font-size:0.22rem;
+    height:0.4rem;
+    line-height:0.4rem;
+}

@@ -1,0 +1,117 @@
+@import "esqtk2.css";
+
+
+/*退货状态，对于服务状态*/
+.zt{
+    height:100%;
+    width:100%;
+    background-color:rgba(0,0,0,0.5);
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:999;
+
+
+    display:none;
+
+}
+.zt .kuai2{
+    height:4.34rem;
+width:7.5rem;
+position:absolute;
+bottom:0;
+background-color:white;
+padding:0 0.24rem;
+box-sizing:border-box;
+}
+.zt .kuai2 .yy{
+    height:0.96rem;
+    width:7.02rem;
+}
+.zt .kuai2 .yy .text{
+    height:0.96rem;
+    text-align:center;
+    line-height:0.96rem;
+    color:#41b2fc;
+    font-size:0.2rem;
+    margin:0 auto;
+}
+.zt .kuai2 .yy .text span{
+    color:#4f5b64;
+}
+.zt .kuai2 .yy .iconfont{
+    float:right;
+    color:#d1dde6;
+    font-size:0.24rem;
+}
+
+
+.zt .kuai2 .shu{
+    height:0.88rem;
+    width:7.02rem;
+    border-bottom:0.02rem solid #fafafa;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.zt .kuai2 .shu .left{
+    height:0.88rem;
+    width:auto;
+    display: flex;
+    align-items: center;
+}
+.zt .kuai2 .shu .left .y{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.08rem;
+}
+.zt .kuai2 .shu .left .wen{
+    color:#8a8c8d;
+    font-size:0.24rem;
+    height:0.88rem;
+    line-height:0.88rem;
+    margin-left:0.1rem;
+}
+.zt .kuai2 .shu  .r{
+    width:0.24rem;
+    height:0.24rem;
+    border-radius:0.2rem;
+    background:#279deb;
+    border:0.06rem solid #3bb1ff;
+    box-sizing:border-box;
+    margin-top:0.32rem;
+    float:right;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.zt .kuai2 .shu  .r .ry{
+    display:block;
+    height:0.06rem;
+    width:0.06rem;
+    background-color:white;
+    border-radius:0.1rem;
+}
+.zt .kuai2  .guanb{
+    width:7.5rem;
+    height:0.6rem;
+    margin-top:0.76rem;
+}
+
+.zt .kuai2  .guanb .anniu{
+    color:white;
+    font-size:0.24rem;
+    height:0.6rem;
+    width:4.54rem;
+    text-align:center;
+    line-height:0.6rem;
+    margin:0 auto;
+    border-radius:0.3rem;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
+}

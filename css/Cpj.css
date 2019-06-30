@@ -1,0 +1,119 @@
+body{
+    background-color:#FBFEFF;
+}
+.dd{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: #FBFEFF;
+    padding:0 0.24rem;
+    font-size: 0.36rem;
+   box-sizing: border-box;
+    text-align: center;
+    line-height: 0.88rem;
+    color: #58BFFE;
+}
+.dd a{
+    float: left;
+    line-height: 0.88rem;
+    font-size: 0.4rem;
+    color: #36A8FE;
+}
+.fl{
+    width: 7.5rem;
+    height: 0.88rem;
+    padding: 0 0.6rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+}
+.fl ul{
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #96D3FE;
+    font-size: 0.2rem;
+}
+.fl li{
+    width: 1.43rem;
+    height: 0.75rem;
+    text-align: center;
+}
+.fl .qb{
+    color: #36A8FE;
+    border-bottom: 0.08rem solid #3BACFE;
+}
+.pl{
+    width: 7.5rem;
+    height: 2.1rem;
+    background: #fff;
+    margin-top: 0.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.pl .npl{
+    width: 7rem;
+    height: 2.1rem;
+    background:#fff;
+    border-bottom: 0.01rem solid #F3F7F9;
+}
+.pl .npl .tx{
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+    float: left;
+}
+.pl .npl .tx img{
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+}
+.pl .npl .wz{
+    width:6.15rem;
+    height: 2.1rem;
+    float: right;
+}
+.pl .npl .wz p{
+    margin-left: 0.2rem;
+}
+.pl .npl .wz span{
+    float: right;
+    color: #9ED5FF;
+    font-size: 0.24rem;
+    margin-top: 0.15rem;
+}
+.pl .npl .wz .wz1{
+    color: #D1D1D1;
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+}
+.pl .npl .wz .wz2{
+    color: #646666;
+    font-size: 0.26rem;
+    margin-top: 0.2rem;
+}
+.pl .npl .wz .wz3{
+    color: #C1C3C4;
+    font-size: 0.22rem;
+    margin-top: 0.2rem;
+}
+.pl .npl .wz i{
+    float: right;
+    font-size: 0.36rem;
+}
+.pl .npl .wz .iconxiaoxi{
+    margin-left: 0.5rem;
+    color: #37DF71;
+}
+.pl .npl .wz .iconxin{
+    color: #3BB9FF;
+}
+.pl .npll{
+    width: 7rem;
+    height: 3.76rem;
+}
+.wzz .iconxin{
+    margin-top: 1.5rem;
+}
+.wzz .iconxiaoxi{
+    margin-top: 1.5rem;
+}

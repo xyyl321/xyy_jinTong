@@ -1,0 +1,152 @@
+body{
+    background:#FBFEFF;
+}
+/* 导航栏开始 */
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:#fbfeff;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    position:fixed;
+    top:0;
+    text-align:center;
+    line-height:0.88rem;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    z-index: 1;
+}
+.header span{
+    font-size:0.36rem;
+    color:#4ebbfe;
+}
+.header .iconzuojiantou{
+    font-size:0.4rem;
+    position:absolute;
+    left:0.24rem;
+    color:#36a8fe;
+}
+/* .header .iconsandian{
+    font-size:0.30rem;
+    float:right;
+    color:#46b7f8;
+} */
+/* 导航栏结束 */
+/* 等待接单开始 */
+.order{
+    width:7.5rem;
+    height:5.22rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    margin-top:1.09rem;
+    position:relative;
+}
+.order .round{
+    width:0.25rem;
+    height:0.25rem;
+    background-color: #ffffff;
+    border:0.04rem solid  #36a8fe;
+    box-sizing: border-box;
+    float:left;
+    border-radius:50%;
+    margin-top:0.26rem;
+}
+.order .round .samllround{
+    width: 0.1rem;
+    height:0.1rem;
+    background:#fbb548;
+    border-radius:50%;
+    margin:0.032rem 0.03rem;
+}
+.order .round2{
+    width:0.25rem;
+    height:0.25rem;
+    background-color: #ffffff;
+    border:0.04rem solid  #e5e5e5;
+    box-sizing: border-box;
+    position: absolute;
+    left:0.24rem;
+    top:2.01rem;
+    border-radius:50%;
+}
+.order .round2 .samllround2{
+    width: 0.1rem;
+    height:0.1rem;
+    background:#e5e5e5;
+    border-radius:50%;
+    margin:0.032rem 0.03rem;
+}
+.order .round3{
+    top:3.76rem;
+}
+.order .line{
+    width:0.02rem;
+    height:1.5rem;
+    position: absolute;
+    left:0.35rem;
+    top:0.51rem;
+    background:#e5e5e5;
+}
+.order .line2{
+    top:2.26rem;
+}
+.order .samllorder{
+    width:6.57rem;
+    height:1.74rem;
+    margin-left:0.41rem;
+    overflow: hidden;
+    border-bottom:0.01rem solid #F5F9FA;
+}
+.order .samllorder2{
+    border-bottom:0;
+}
+.order .samllorder .font1{
+    font-size:0.3rem;
+    color:#36a8fe;
+    margin-top:0.15rem;
+}
+.order .samllorder .font2{
+    font-size:0.24rem;
+    color:#8a8c8d;
+    margin-top:0.1rem;
+}
+.order .samllorder .font3{
+    height:0.4rem;
+    width:100%;
+    margin-top:0.32rem;
+    display:flex;
+    align-items:center;
+}
+.order .samllorder .font3 .rounds{
+    width:0.06rem;
+    height:0.06rem;
+    background:#44b5ff;
+    border-radius:50%;
+    box-shadow: 0 0.02rem 0.05rem 0px 
+		rgba(68, 181, 255, 0.43);
+}
+.order .samllorder .font3 span{
+    font-size:0.18rem;
+    color:#CED0D1;
+    margin-left:0.12rem;
+}
+/* 等待接单结束 */
+.service{
+    width: 7.5rem;
+    height: 0.6rem;
+    position:fixed;
+    bottom:0.27rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
+.service .button{
+    float: right;
+    width:1.66rem;
+    height:0.6rem;
+    background:#e7f6ff;
+    border-radius:0.3rem;
+    font-size:0.27rem;
+    color:#3bacfe;
+    font-weight:bold;
+    line-height:0.6rem;
+    text-align: center;
+}

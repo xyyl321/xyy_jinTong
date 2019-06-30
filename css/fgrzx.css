@@ -1,0 +1,174 @@
+@import "fgrzl.css";
+
+.xinxi{
+    width:7.5rem;
+    height:auto;
+}
+.hang .left .name{
+    color:rgba(0,0,0,0.7);
+}
+.hang .you .red{
+    font-size:0.36rem;
+    font-weight:bold;
+    color:#FD624D;
+}
+
+.mineBox{
+    width:7.5rem;
+    height:3.98rem;
+    background-image:url("../img/fgrzxd.png");
+    background-size:6.81rem 2.24rem;
+    background-repeat:no-repeat;
+    background-position:center;
+    overflow:hidden;
+}
+.mineBox .card{
+    width:6.41rem;
+    height:1.85rem;
+    border-radius:0.1rem;
+    background-color:#fff;
+    box-shadow:0 0 0.25rem 0.01rem rgba(226,226,226,0.5);
+    margin:0.32rem auto 0;
+}
+.card .grbox{
+    width:auto;
+    height:1.85rem;
+    float:left;
+    display:flex;
+    align-items:center;
+}
+.card .grbox .gr{
+    display:block;
+    width:1.67rem;
+    height:1.67rem;
+}
+.card .grbox .gr .tx{
+    width:1.67rem;
+    height:1.67rem;
+}
+.card .grbox .han{
+    width:auto;
+    height:1.03rem;
+}
+.card .grbox .han .mei{
+    height:0.65rem;
+    font-size:0.3rem;
+    line-height:0.65rem;
+    color:rgba(0,0,0,0.7);
+}
+.card .grbox .han .gold{
+    width:auto;
+    height:0.38rem;
+    display:flex;
+    align-items:center;
+}
+.card .grbox .han .gold img{
+    width:0.28rem;
+    height:0.20rem;
+}
+.card .grbox .han .gold span{
+    font-size:0.22rem;
+    color:rgba(0,0,0,0.4);
+    margin-left:0.1rem;
+}
+.card .qu{
+    display:block;
+    width:1.4rem;
+    height:0.3rem;
+    float:right;
+    margin-top:0.62rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.card .qu .sj{
+    font-size:0.2rem;
+    color:#3DACFC;
+    margin-right:0.1rem;
+}
+.card .qu .sl{
+    width:0.05rem;
+    height:0.05rem;
+    border-radius:50%;
+    background-color:#3DACFC;
+    margin-right:0.03rem;
+}
+.card .qu .sl1{
+    opacity:0.5;
+}
+.card .qu .sl2{
+    opacity:0.3;
+}
+.mineBox .three{
+    width:6.41rem;
+    height:0.85rem;
+    margin:0.74rem auto 0;
+    display:flex;
+    justify-content:space-around;
+}
+.three .one{
+    display:block;
+    width:1.11rem;
+    height:0.85rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+.three .one .num{
+    font-size:0.46rem;
+    font-weight:bold;
+    background:linear-gradient(to right,#33A3FC,#6ED3FC);
+    background:-webkit-linear-gradient(left,#33A3FC,#6ED3FC);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+.three .one .note{
+    font-size:0.24rem;
+    color:#8D9296;
+}
+.three .one .num1{
+    background:linear-gradient(to right,#28DC5D,#2DD3B8);
+    background:-webkit-linear-gradient(left,#28DC5D,#2DD3B8);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+.three .one .num2{
+    background:linear-gradient(to right,#FEB73E,#FDE241);
+    background:-webkit-linear-gradient(left,#FEB73E,#FDE241);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+
+/* Tab栏 */
+.dh{
+    width:7.5rem;
+    height:0.98rem;
+    background: #F6FBFF;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.dh .dh1{
+    width:0.94rem;
+    height:0.98rem;
+}
+.dh .dh1 a{
+    display:block;
+    width:0.94rem;
+    height:0.98rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.dh .dh1 i{
+    font-size: 0.5rem;
+    color: #BAE6FF;
+}
+.dh .dh1 span{
+    font-size: 0.26rem;
+    color: #BAE6FF;
+}

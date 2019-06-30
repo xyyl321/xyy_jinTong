@@ -1,0 +1,368 @@
+body{
+    background:#FBFEFF;
+}
+/* 导航栏开始 */
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:#fbfeff;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    position:fixed;
+    top:0;
+    text-align:center;
+    line-height:0.88rem;
+    z-index:1 ;
+}
+.header span{
+    font-size:0.36rem;
+    color:#4ebbfe;
+}
+.header .iconzuojiantou{
+    font-size:0.4rem;
+    color:#36a8fe;
+    position: absolute;
+    left:0.18rem;
+    bottom:0;
+    top:0;
+    margin:auto;
+}
+/* 导航栏结束 */
+/* 待接单开始 */
+.service{
+    margin-top:0.88rem;
+    width:7.5rem;
+    height:0.8rem;
+    background:#3bacfe;
+    box-shadow: 0 0.03rem 0.43rem 0px 
+		rgba(41, 167, 255, 0.13);
+}
+.service .left{
+    width:2rem;
+    height:100%;
+    margin-left:0.28rem;
+    float:left;
+    line-height:0.8rem;
+}
+.service .left .dian{
+    width:0.16rem;
+    height:0.08rem;
+    background:#fff;
+    color:#fff;
+    float:left;
+    border-radius: 0.04rem;
+    margin:0.36rem 0.1rem 0 0;
+}
+.service .left .font1{
+    font-size:0.38rem;
+    color:#fff;
+    font-weight:bold;
+}
+.service .right{
+    width:2rem;
+    height:100%;
+    margin-right:0.26rem;
+    line-height:0.8rem;
+    float:right;
+}
+.service .right .font2{
+    font-size:0.26rem;
+    color:#bae6ff;
+    float:right;
+    margin-right:0.1rem;
+}
+.service .right .iconyou{
+    font-size:0.24rem;
+    color:#fff;
+    float:right;
+}
+/* 待接单结束 */
+/* 待接单2开始 */
+.service2{
+    width:7.5rem;
+    height:2.94rem;
+    padding: 0 0.24rem;
+    box-sizing:border-box;
+    overflow: hidden;
+    background:#FBFEFF;
+}
+.service2 .Bigleft{
+    width:1.74rem;
+    height:1.74rem;
+    margin-top:0.44rem;
+    float:left;
+    background:#fff;
+    border-radius:0.04rem;
+}
+.service2 .Bigleft img{
+    width:100%;
+    height:100%;
+}
+.service2 .Bigright{
+    width:5rem;
+    height:1.74rem;
+    float:right;
+    margin:0.44rem 0 0 0.2rem;
+}
+.service2 .Bigright .one{
+    height:0.3rem;
+    width:100%;
+    line-height:0.3rem;
+}
+.service2 .Bigright .font1{
+    font-size:0.3rem;
+    color:#646666;
+    float:left;
+}
+.service2 .Bigright .font2{
+    font-size:0.26rem;
+    color:#43c93e;
+    float:right;
+}
+.service2 .Bigright .one2{
+    width:100%;
+    height:0.22rem;
+    position:relative;
+    margin-top:0.2rem;
+    line-height:0.22rem;
+    display:flex;
+    align-items:center;
+}
+.service2 .Bigright .one2 .yuan{
+    width:0.06rem;
+    height:0.06rem;
+    background:#44b5ff;
+    box-shadow: 0 0.02rem 0.05rem  0 
+		rgba(68, 181, 255, 0.43);
+	border-radius:0.03rem;
+}
+.service2 .Bigright .one2 .time{
+    font-size:0.22rem;
+    color:#AFB1B2;
+    margin-left:0.1rem;
+}
+.service2 .Bigright .one2 .time1{
+    font-size:0.26rem;
+    color:#36a8fe;
+}
+.service2 .Bigright .one3{
+    margin-top:0.76rem;
+    line-height:0.22rem;
+}
+.service2 .Bigright .one3 .yuan1{
+    color:#36d681;
+}
+.service2 .Bigright .one2 .money{
+    font-size:0.24rem;
+    color:#fbb548;
+    margin-left:0.1rem;
+}
+/* 待接单2结束 */
+.serve{
+    width:7.02rem;
+    height:3.91rem;
+    margin:auto;
+    background:#fff;
+    box-shadow: 0 0.01rem  0.21rem 0
+		rgba(223, 223, 223, 0.43);
+	border-radius: 0.1rem;
+}
+.serve .top1{
+    width:100%;
+    height:0.86rem;
+    border-bottom:0.01rem solid #FAFAFA;
+    line-height:0.86rem;
+    font-size:0.24rem;
+    color:#999999;
+    display:flex;
+    align-items:center;
+}
+.serve .yuan{
+    width:0.06rem;
+    height:0.06rem;
+    background:#44b5ff;
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    border-radius: 0.03rem;
+    margin-left:0.29rem;
+}
+.serve .font1{
+    font-size:0.24rem;
+    color:#999999;
+    margin-left:0.22rem;
+}
+.serve .font2{
+    margin-left:0.22rem;
+}
+.serve .top2{
+    height:1.23rem;
+    border-bottom:0.01rem solid #FAFAFA;
+}
+.serve .top2 .left{
+    height:100%;
+    width:auto;
+    display:flex;
+    align-items:center;
+    line-height:1.23rem;
+    margin-left:0.29rem;
+    float:left;
+}
+.serve .top2 .font1{
+    float:left;
+}
+.serve .top2 .yuan1{
+    width:0.06rem;
+    height:0.06rem;
+    background:#44b5ff;
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    border-radius: 0.03rem;
+}
+.serve .font3{
+    font-size:0.24rem;
+    color:#999999;
+    display:block;
+    height:0.6rem;
+    width:4.77rem;
+    float:right;
+    margin:0.42rem 0.5rem 0 0;
+}
+.serve .top3{
+    border:0;
+}
+/* 上门服务结束 */
+/* 团队开始 */
+.team{
+    width:7.5rem;
+    height:1.77rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
+.team .team2{
+    width:7.02rem;
+    height:100%;
+    background:#fff;
+    box-shadow: 0 0.01rem 0.21rem 0 
+		rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    margin-top:0.24rem;
+    margin-bottom:1.3rem;
+}
+.team .team2 .team3{
+    width:100%;
+    height:0.88rem;
+    border-bottom:0.01rem solid #FAFAFA;
+    line-height:0.88rem;
+}
+.team .team2 .t2{
+    border:0;
+    display:flex;
+    align-items:center;
+}
+.team .team2 .man{
+    width:0.5rem;
+    height:0.5rem;
+	box-shadow: 0 0 0.18rem 0 
+		rgba(68, 181, 255, 0.43);
+    border-radius: 50%;
+    float:left;
+    margin:0.2rem 0 0 0.16rem;
+    display:block;
+}
+.team .team2 .team3 span{
+    font-size:0.24rem;
+    color:#3aa9fb;
+    margin-left:0.23rem;
+}
+.team .team2 .team3 .iphoto{
+    float:right;
+    width:0.5rem;
+    height:0.5rem;
+    display:block;
+    margin-top: 0.2rem
+}
+.team .team2 .team3 .message{
+    float:right;
+    width:0.5rem;
+    height:0.5rem;
+    margin-right:0.25rem;
+    display:block;
+    margin: 0.2rem 0.25rem 0 0.35rem;
+}
+.team .team2 .team3 .yuan{
+    width:0.06rem;
+    height:0.06rem;
+    background:#44b5ff;
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    border-radius: 0.03rem;
+    margin-left:0.29rem;
+}
+.team .team2 .t3{
+    width:100%;
+    height:0.88rem;
+    border-bottom:0.01rem solid #FAFAFA;
+    line-height:0.88rem;
+}
+.team .team2 .t3 .font1{
+    font-size:0.24rem;
+    color:#8a8c8d;
+    margin-left:0.22rem;
+}
+.team .team2 .t3 .font2{
+    font-size:0.24rem;
+    color:#8a8c8d;
+    float:right;
+    margin-right:0.33rem;
+}
+.team .team2 .t3 .left{
+    width:auto;
+    height:100%;
+    display:flex;
+    align-items:center;
+    float:left;
+}
+.team .team2 .t3 .left .yuan{
+    width:0.06rem;
+    height:0.06rem;
+    background:#44b5ff;
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    border-radius: 0.03rem;
+    margin-left:0.29rem;
+}
+/* 退队结束 */
+/* 支付开始 */
+.pay{
+    width:7.5rem;
+    height:0.9rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    margin-top:0.33rem;
+    position:fixed;
+    bottom:0;
+}
+.pay .samll{
+    float:right;
+    width:1.96rem;
+    height:0.6rem;
+    border-radius: 0.3rem;
+    background:#E7F6FF;
+    line-height:0.6rem;
+    text-align: center;
+    color:#3bacfe;
+    font-size:0.24rem;
+    font-weight:bold;
+    margin-right:0.29rem;
+}
+.pay .Big{
+    float:right;
+    width:2.69rem;
+    height:0.6rem;
+    border-radius: 0.3rem;
+    background:#E7F6FF;
+    line-height:0.6rem;
+    text-align: center;
+    color:#fff;
+    font-size:0.24rem;
+    font-weight:bold;
+    background:-webkit-linear-gradient(left,#37e06f,#31d69a);
+    box-shadow: 0 0.04rem 0.2rem 0px 
+		rgba(55, 223, 116, 0.75);
+}

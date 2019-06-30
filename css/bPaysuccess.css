@@ -1,0 +1,274 @@
+body{
+    background-color:#FBFEFF;
+}
+header{
+    width:7.5rem;
+    height:0.88rem;
+    background-color:#FBFEFF;
+    font-size:0.38rem;
+    color:#4FBAFC;
+    text-align:center;
+    line-height:0.88rem;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+}
+header .back{
+    display:block;
+    width:0.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    left:0.24rem;
+}
+header .iconzuojiantou{
+    font-size:0.4rem;
+    color:#4FBAFC;
+}
+.payBox{
+    width:7.5rem;
+    height:auto;
+    padding-bottom:0.1rem;
+    margin-top:1.08rem;
+}
+.payBox .image{
+    display:block;
+    width:1.5rem;
+    height:1.22rem;
+    margin:0 auto;
+}
+.payBox .zi{
+    width:100%;
+    height:0.54rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.dians{
+    width:0.1rem;
+    height:0.06rem;
+    border-radius:0.03rem;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+}
+.payBox .zi .need{
+    font-size:0.26rem;
+    font-weight:bold;
+    color:#4E5A63;
+    margin:0 0.1rem;
+}
+.payBox .zi .price{
+    font-size:0.3rem;
+    font-weight:bold;
+    color:#2FD696;
+}
+.payBox .zi1{
+    height:0.39rem;
+}
+.payBox .zi1 .price{
+    color:#FED446;
+}
+.payBox .anbox{
+    width:4.55rem;
+    height:0.6rem;
+    margin:0.46rem auto 0;
+}
+.payBox .anbox .cha{
+    display:block;
+    width:1.96rem;
+    height:0.6rem;
+    float:left;
+}
+.payBox .anbox .cha button{
+    width:1.96rem;
+    height:0.6rem;
+    border-radius:0.3rem;
+    border:0;
+    outline:none;
+    font-size:0.2rem;
+    color:#fff;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
+}
+.payBox .anbox .fan{
+    float:right;
+}
+.payBox .anbox .fan button{
+    background:#3bacfe;
+    box-shadow:0 0.05rem 0.12rem 0 rgba(59,172,254,0.43);
+}
+.mayBox{
+    width:7.02rem;
+    height:0.69rem;
+    margin:0.93rem auto 0;
+    display:flex;
+    align-items:center;
+}
+.mayBox .sp{
+    font-size:0.32rem;
+    font-weight:bold;
+    color:#4E5A63;
+    margin-left:0.1rem;
+}
+.mayBox .sp1{
+    color:#30D988;
+    margin-left:0;
+}
+.goodsBox{
+    width:7.02rem;
+    height:auto;
+    margin:0 auto;
+    overflow:hidden;
+}
+.goodsBox .goods{
+    width:50%;
+    height:auto;
+    float:left;
+    position:relative;
+}
+.goodsBox .goods1{
+    margin-top:0.36rem;
+}
+.goodsBox .wu{
+    width:0.54rem;
+    height:0.3rem;
+    border-radius:0.15rem;
+    font-size:0.22rem;
+    color:#fff;
+    text-align:center;
+    line-height:0.3rem;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+    box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
+    position:absolute;
+    top:0.36rem;
+    right:0.3rem;
+}
+.goodsBox .goods .tu{
+    display:block;
+    width:1.53rem;
+    height:1.61rem;
+    margin:0.52rem auto 0;
+}
+.goodsBox .goods .conbox{
+    width:100%;
+    height:auto;
+    padding-right:0.31rem;
+    box-sizing:border-box;
+    margin-top:0.35rem;
+}
+.goodsBox .goods .conbox1{
+    padding-right:0;
+    padding-left:0.31rem;
+}
+.goods .conbox .ming{
+    width:100%;
+    height:0.8rem;
+    border-bottom:0.02rem solid rgba(0,0,0,0.05);
+}
+.goods .conbox .ming .hang1{
+    width:100%;
+    height:0.44rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.goods .conbox .ming .hang1 .s1{
+    font-size:0.3rem;
+    color:rgba(0,0,0,0.6);
+}
+.goods .conbox .ming .hang1 .s2{
+    font-size:0.28rem;
+    color:#FAB44A;
+}
+.goods .conbox .ming .hang2{
+    height:0.26rem;
+    line-height:0.26rem;
+    font-size:0.22rem;
+    color:rgba(0,0,0,0.5);
+}
+.goods .conbox .ping{
+    width:auto;
+    height:0.58rem;
+    display:flex;
+    align-items:center;
+}
+.goods .conbox .dian{
+    width:0.06rem;
+    height:0.06rem;
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    margin-right:0.05rem;
+}
+.goods .conbox .dian1{
+    margin-left:0.5rem;
+}
+.goods .conbox .ping .sp{
+    font-size:0.22rem;
+    color:rgba(0,0,0,0.3);
+    margin-right:0.1rem;
+}
+.goods .conbox .ping .sp1{
+    font-size:0.26rem;
+    font-weight:bold;
+    color:#38A8FC;
+}
+.goods .conbox .ping .bai{
+    font-size:0.26rem;
+    font-weight:bold;
+    color:#b9e1ff;
+}
+.goods .conbox .fei{
+    width:2.52rem;
+    height:0.35rem;
+    display:flex;
+    justify-content:space-between;
+}
+.goods .conbox .fei .very{
+    width:1.21rem;
+    height:0.35rem;
+    border-radius:0.175rem;
+    background-color:rgba(61,170,253,0.1);
+    font-size:0.2rem;
+    color:#38A8FC;
+    text-align:center;
+    line-height:0.35rem;
+}
+
+/* Tab栏 */
+.dh{
+    width:7.5rem;
+    height:0.98rem;
+    background: #F6FBFF;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.dh .dh1{
+    width:0.94rem;
+    height:0.98rem;
+}
+.dh .dh1 a{
+    display:block;
+    width:0.94rem;
+    height:0.98rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.dh .dh1 i{
+    font-size: 0.5rem;
+    color: #BAE6FF;
+}
+.dh .dh1 span{
+    font-size: 0.26rem;
+    color: #BAE6FF;
+}

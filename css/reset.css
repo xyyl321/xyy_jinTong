@@ -1,0 +1,55 @@
+img{
+    border: 0;
+}
+body{
+    margin: 0;
+}
+a{
+    color: #000;
+    text-decoration: none; 
+}
+body,h1,h2,h3,h4,h5,h6,p,hr,ul{
+    margin: 0;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+/* 清除浮动 */
+.clear-both::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+textarea{
+    /* 禁止多行文本框拉伸 */
+    resize: none;
+}
+input,textarea{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    outline: 0;  /*轮廓线*/
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+/* 单行文字超出显示省略号 */
+.hidden_one{
+    overflow: hidden;
+    /* 文字超出显示省略 */
+    text-overflow: ellipsis;
+    /* 文字不能换行 */
+    white-space: nowrap;
+}
+  /* 必须得规定p标签宽度 */
+
+.hidden_more{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;     /* 固定显示3行*/
+    overflow: hidden;
+    /* 容器高度不能固定 */
+}

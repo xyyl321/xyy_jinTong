@@ -1,0 +1,307 @@
+body{
+    background:#FBFEFF;
+}
+/* 导航栏开始 */
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:#fbfeff;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    position:fixed;
+    top:0;
+    text-align:center;
+    line-height:0.88rem;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+}
+.header span{
+    font-size:0.36rem;
+    color:#4ebbfe;
+}
+.header .iconzuojiantou{
+    font-size:0.4rem;
+    color:#36a8fe;
+    position:absolute;
+    left:0.24rem;
+}
+/* .header .iconsandian{
+    font-size:0.30rem;
+    float:right;
+    color:#46b7f8;
+} */
+/* 导航栏结束 */
+/* 选择服务项目开始 */
+.wholetop{
+    margin-top:1.2rem;
+    width:7.5rem;
+    height:6.92rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+}
+.wholetop .top{
+    width:100%;
+    height:0.51rem;
+    font-size:0.26rem;
+    color:#979899;
+}
+.wholetop .center{
+    width:7.02rem;
+    height:2.64rem;
+    padding:0 0.15rem;
+    box-sizing:border-box;
+    background-color: #ffffff;
+	box-shadow: 0px 1px 21px 0px 
+		rgba(223, 223, 223, 0.43);
+	border-radius: 10px;
+}
+.wholetop .center .content{
+    width:100%;
+    height:0.86rem;
+    border-bottom:0.02rem solid #FAFAFA;
+    line-height:0.86rem;
+}
+.wholetop .center .content .font1{
+    font-size:0.24rem;
+    color:#8a8c8d;
+    float:left;
+    margin-left:0.19rem;
+}
+.wholetop .center .content .font2{
+    font-size:0.24rem;
+    color:#36a8fe;
+    float:right;
+}
+.wholetop .center .content input{
+    float:right;
+    margin: 0.3rem 0.18rem 0 0.12rem;
+}
+.bottom{
+    width:7.02rem;
+    height:3.52rem;
+    margin-top:0.25rem;
+    background-color: #fff;
+	box-shadow: 0px 1px 21px 0px 
+		rgba(223, 223, 223, 0.43);
+	border-radius: 10px;
+}
+.wholetop .bottom .minute{
+    width:7.02rem;
+    height:0.88rem;
+    border-bottom:0.02rem solid  #FAFAFA;
+    line-height:0.88rem;
+    font-size:0.24rem;
+    color:#8a8c8d;
+}
+.wholetop .bottom .minute .font3{
+    margin-left:0.36rem;
+    font-size:0.24rem;
+    color:#8a8c8d;
+}
+.wholetop .bottom .minute .iconchenghao{
+    font-size:0.24rem;
+    color:#8a8c8d;
+    margin-left:1.07rem;
+}
+.wholetop .bottom .minute .font4{
+    font-size:0.24rem;
+    color:#8a8c8d;
+}
+.wholetop .bottom .minute .font5{
+    margin-left:0.8rem;
+}
+.wholetop .bottom .minute .font6{
+    margin-left:1.3rem;
+}
+.wholetop .bottom .minute .font7{
+    margin-left:1.3rem;
+}
+.wholetop .bottom .minute .right{
+    width: 1.83rem;
+    height:0.44rem;
+    float:right;
+    line-height:0.44rem;
+    text-align: center;
+    margin-top:0.24rem;
+    margin-right:0.34rem;
+}
+.wholetop .bottom .minute .right .lef{
+    float:left;
+    width:0.74rem;
+    height:100%;
+    border-radius: 0.22rem;
+    background-color: #f0f0f0;
+    line-height:0.44rem;
+    text-align: center;
+}
+.wholetop .bottom .minute .right .rig{
+    float:right;
+    width:0.74rem;
+    height:100%;
+    border-radius: 0.22rem;
+    background-color: #f0f0f0;
+    
+    line-height:0.44rem;
+    text-align: center;
+}
+.wholetop  .right i{
+    font-size:0.16rem;
+    color:#8A8C8D;
+}
+/* 选择服务项目结束 */
+/* 上传开始 */
+.push{
+    width: 7.5rem;
+    height:3.3rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    margin-top:0.31rem;
+}
+.push p{
+    font-size:0.26rem;
+    color:#979899;
+}
+.push .photos{
+    width:1.01rem;
+    height:1.01rem;
+    background:-webkit-linear-gradient(left,#37e06f,#31d69a);
+    box-shadow: 0px 0.04rem 0.2rem 0px 
+		rgba(55, 223, 116, 0.75);
+    border-radius: 0.1rem;
+    text-align:center;
+    line-height:1.01rem;
+    margin-top:0.24rem;
+}
+.push .photos .iconxiangji{
+    font-size:0.6rem;
+    color:#fff;
+}
+.push .photos textarea{
+    width:7.02rem;
+    height:1.27rem;
+    border:0;
+    background:#e7f6ff;
+    margin-top:0.53rem;
+    padding:0 0 0.32rem 0.32rem;
+    box-sizing:border-box;
+    border-radius: 0.08rem;
+    outline:none;
+    resize:none;
+}
+::-webkit-input-placeholder {
+    color: #b9c9d2;
+    font-size:0.24rem;
+}
+/* 上传结束 */
+.order{
+    width:7.5rem;
+    height:2.4rem;
+    padding:0 0.24rem;
+    box-sizing:border-box; 
+    margin-top:0.43rem;
+    margin-bottom:1.89rem;
+}
+.order .coupon{
+    width:100%;
+    height:0.88rem;
+    border-bottom:0.02rem solid #F6F9FA;
+    line-height:0.88rem;
+}
+.order .coupon .coupon2{
+    width:auto;
+    height:100%;
+    float:left;
+    align-items:center;
+    display:flex;
+}
+.order .coupon .rcoupon2{
+    width:auto;
+    height:100%;
+    float:right;
+    align-items:center;
+    display:flex;
+}
+.order .coupon .yuan{
+    border-radius:50%;
+    background-color:rgb(68,181,255);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(68,181,255,0.43);
+    width:0.06rem;
+    height:0.06rem;
+    float:left;
+}
+.order .coupon span{
+    font-size:0.24rem;
+    color:#8a8c8d;
+    margin-left:0.09rem;
+}
+.order .coupon .i1{
+    font-size:0.18rem;
+    color:#8a8c8d;
+    float:right;
+}
+.order .coupon .wu{
+    font-size:0.22rem;
+    color:#8a8c8d;
+    float:right;
+    margin-right:0.18rem;
+}
+.order .coupon2{
+    border-bottom:0;
+}
+/* 立即付款开始 */
+.refer{
+    width:7.5rem;
+    height:1.07rem;
+    background:#F1FAFF;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    position: fixed;
+    bottom:0;
+}
+.refer .left{
+    width:auto;
+    height:0.26rem;
+    line-height:0.26rem;
+    float:left;
+    margin-top:0.4rem;
+    display:flex;
+    align-items:center;
+}
+.refer .left .yuan{
+    border-radius:50%;
+    background:#44b5ff;
+    width:0.05rem;
+    height:0.05rem;
+    float:left;
+}
+.refer .left .colon{
+    font-size:0.24rem;
+    color:#84CBFE;
+    margin-left:0.1rem;
+}
+.refer .left .he{
+    font-size:0.24rem;
+    color:#84CBFE;
+    margin-left:0.1rem;
+}
+.refer .left .he2{
+    font-size:0.36rem;
+    color:#36a8fe;
+    font-weight:bold;
+    margin-left:0.11rem;
+}
+.refer a{
+    display: block;
+    width:3.5rem;
+    height:0.6rem;
+    background:linear-gradient(to right,#37d66f,#31d69a);
+    background:-webkit-linear-gradient(left,#37d66f,#31d69a);
+	box-shadow:0 0.04rem 0.2rem 0 rgba(55,223,116,0.75);
+    border-radius: 30px;
+    float:right;
+    margin:0.23rem 0.12rem 0 0;
+    font-size:0.2rem;
+    color:#fff;
+    line-height:0.6rem;
+    text-align: center;
+}
+/* 立即付款结束 */

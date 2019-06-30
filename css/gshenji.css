@@ -1,0 +1,271 @@
+body{
+    background: #FBFEFF;
+}
+
+
+header{
+    width:7.5rem;
+    height:0.88rem;
+    background-color:#FBFEFF;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+    font-size:0.38rem;
+    color:#4FBAFC;
+    text-align:center;
+    line-height:0.88rem;
+    position:relative;
+}
+header .back{
+    display:block;
+    width:0.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    left:0.24rem;
+}
+header .iconzuojiantou{
+    font-size:0.4rem;
+    color:#4FBAFC;
+}
+
+}
+.han{
+    width: 6.41rem;
+    height: 1.85rem;
+    background-color: #fff;
+    margin: 0.32rem auto 0;
+    font-weight: bold;
+    box-shadow: 0px 1px 25px 0px 
+        rgba(227, 227, 227, 0.75);
+    padding: 0.22rem 0.23rem 0 0.23rem;
+    box-sizing: border-box;
+  
+
+}
+.han img{
+    height: 0.95rem;
+    height: 0.95rem;
+}
+.han .right{
+    width: 5rem;
+    height:0.93rem;
+    margin-left: 0.1rem;
+  
+
+}
+.han .right .tonxue{
+  margin-top: 0.1rem;
+ 
+   
+    
+}
+.han .right .tonxue span{
+    font-size: 0.3rem;
+    color: #000000;
+	opacity: 0.5;
+}
+
+.han .right .tonxue .span{
+    font-size: 0.2rem;
+    color: #3bacfe;
+    float:right;
+    
+}
+.ziti{
+    /* height:  */
+   
+    margin-top: 0.1rem;
+    line-height: 0.5rem;
+   
+   
+ 
+}
+.ziti span{
+    margin-right:0.19rem;
+    font-size: 0.22rem;
+    color: #000000;
+	opacity: 0.3;
+   
+}
+
+.ziti .yuan{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #29c99a;
+    display:inline-block;
+    margin-right: 0.1rem;
+    margin-bottom: 0.05rem;
+    
+}
+.ziti .yiliu{
+    font-size: 0.24rem;
+    color: #59bffe;
+}
+.ziti .erq{
+    font-size: 0.24rem;
+    color: #e2e2e2;
+}
+.he{
+    display: flex;
+}
+.bott{
+    height: auto;
+    width: auto;
+   font-size: 0.22rem;
+   display: flex;
+   justify-content:space-between;
+   margin-top: 0.2rem;
+   color: #8e9397;
+	
+}
+
+.bott .huanjin i{
+    color: #fbcc33;
+}
+.bott .iconjindutiao{
+    width: 2.95rem;
+    height: 0.4rem;
+}
+.iconwangguan {
+    color: #e8e8e8;
+}
+.wode{
+    width:7.5rem;
+    height: 0.92rem;
+  font-size: 0.32rem;
+  display: flex;
+  align-items: center;
+  padding:0 0.33rem;
+  box-sizing: border-box;
+  font-weight: bold;
+  position: relative;
+ 
+
+  
+
+}
+.hezi{
+    position: absolute;
+    bottom:  -0.06rem;
+    right: 0.15rem;
+    
+   
+ 
+}
+.hezi p{
+    font-size: 0.28rem;
+    color: #000000;
+    opacity: 0.4;
+    float: right;
+}
+.wode .quan{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius:50%;
+    background-color: #000000;
+    opacity: 0.3;
+    float: right;
+   
+    margin: 0.2rem 0.05rem;
+}
+
+.wode .lin{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius:0.3rem;
+    background: #44b5ff;
+    margin-right: 0.1rem;
+    box-shadow: 0px 2px 5px 0px 
+		rgba(68, 181, 255, 0.43);
+  
+}
+.wode span{
+    color: #44b5ff;
+}
+.wode .teq{
+    color: #4f5b64;
+}
+.xin{
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0.48rem  ;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.xin .fuwu{
+    width: 1.23rem;
+    height:auto;
+    margin-right: 0.23rem;
+}
+.xin .fuwu img{
+    display: block;
+    width: 1.13rem;
+    height: 1.13rem;
+    margin: 0.29rem 0.83rem  0.29rem 0;
+    box-shadow: 0px 10px 29px 0px 
+    rgba(41, 167, 255, 0.26);
+    border-radius: 50%; 
+}
+ .righ{
+  
+    margin: auto 0;
+    line-height:0.4rem;
+}
+
+.righ p{
+    font-size: 0.28rem;
+    color:#000000;
+    opacity: 0.7;
+   
+   
+}
+.xin .righ .yiji{
+    font-size: 0.24rem;
+    color: #000000;
+	opacity: 0.4;
+}
+
+ .bott .son{
+    width: 2.95rem;
+    height: 0.06rem;
+    background: #6fd5fe;
+    margin: auto 0;
+}
+.leiji{
+    width: 7.5rem;
+    height: auto;
+    margin-bottom: 0.45rem;
+   
+    padding: 0.36rem 0 0 0.33rem;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+
+}
+.leiji .stee{
+    display: flex;
+    margin-bottom: 0.3rem;
+}
+.leiji .stee .yuang{
+    width: 0.06rem;
+    height: 0.06rem;
+    background-color: #30c49c;
+	box-shadow: 0px 3px 5px 0px 
+		rgba(48, 196, 156, 0.52);
+    margin: auto 0.12rem  auto 0;
+
+}
+.leiji .stee p{
+    color: #000000;
+	opacity: 0.4;
+}
+.gang{
+    width: 6.96rem;
+	height: 0.02rem;
+	background-color: #000000;
+    opacity: 0.05;
+    margin: auto;
+}

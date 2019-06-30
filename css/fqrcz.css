@@ -1,0 +1,112 @@
+body{
+    background-color:#FBFEFF;
+}
+.dd{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: #FBFEFF;
+    padding:0 0.24rem;
+    font-size: 0.36rem;
+   box-sizing: border-box;
+    text-align: center;
+    line-height: 0.88rem;
+    color: #58BFFE;
+    box-shadow: 0 0 0.26rem 0.04rem #ecf8ff;
+}
+.dd a{
+    float: left;
+    line-height: 0.88rem;
+    font-size: 0.4rem;
+    color: #36A8FE;
+}
+.cz{
+    width: 7.5rem;
+    height: 2.5rem;
+    margin-top: 0.3rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    border-bottom: 0.01px solid #F6FAFB;
+}
+.cz .hz{
+    width: 100%;
+    height: 0.4rem;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cz .dian{
+    width:0.1rem;
+    height:0.06rem;
+    border-radius:0.03rem;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.06rem;
+}
+.cz .dian2{
+    width:0.1rem;
+    height:0.06rem;
+    border-radius:0.03rem;
+    background-color:rgb(54,214,129);
+    box-shadow:0 0.02rem 0.05rem 0 rgba(54,214,129,0.43);
+    margin-right:0.06rem;
+    margin-left: 0.1rem;
+}
+.cz .hz .z1{
+   font-size: 0.24rem;
+   line-height: 0.4rem;
+   margin-left: 0.1rem;
+}
+.cz .hz .z2{
+    font-size: 0.3rem;
+    font-weight: bold;
+   line-height: 0.4rem;
+   color: #45CC9C;
+}
+.wx{
+    width: 7.5rem;
+    height: 1rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.3rem;
+    border-bottom: 0.01rem solid #F6FAFB;
+}
+.wx i{
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #36DC7A;
+    float: left;
+}
+.wx p{
+    line-height: 1rem;
+    margin-left: 0.2rem;
+    float: left;
+    color: #565E62;
+    font-size: 0.28rem;
+}
+.wx .yuan{
+    width: 0.08rem;
+    height: 0.08rem;
+    float: right;
+    background: #fff;
+    border-radius: 50%;
+    border: 0.1rem solid #46A6EF;
+    margin-top: 0.3rem;
+}
+.zf{
+    width: 7.5rem;
+    height: 0.88rem;
+    margin-top: 3.5rem;
+}
+.zf .an{
+    width: 5rem;
+    height: 0.7rem;
+    background: #34DC7C;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.7rem;
+}
