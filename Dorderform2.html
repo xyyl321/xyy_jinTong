@@ -28,41 +28,49 @@
         <div class="select"></div>
     </div>
     <!-- 选项栏结束 -->
-    <div class="order">
-        <div class="goods">
-            <div class="left">
-                <img src="img/5-tk.png" alt="">
+
+
+    <div class="bigbox"  style="width: 100%; height:10.88rem; overflow: hidden; position: relative;">
+        <div class="scroll" style="width: 100%; height:12rem;">
+            <div class="order">
+                <div class="goods">
+                    <div class="left">
+                        <img src="img/5-tk.png" alt="">
+                    </div>
+                    <div class="right">
+                        <p class="font">潜水艇高端龙头</p>
+                        <div class="font2">
+                            <div class="yuan"></div>
+                            <span class="ECC">ECC01-001Lw</span>
+                        </div>
+                        <div class="font2">
+                            <div class="yuan"></div>
+                            <span class="ECC ECC2" style="font-size:0.22rem;color:#AFB1B2;" >商品规格潜水艇高端龙头</span>
+                        </div>
+                        <div class="font2 money">
+                            <div class="yuan"></div>
+                            <span class="ECC money2">¥60.00</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="right">
-                <p class="font">潜水艇高端龙头</p>
-                <div class="font2">
-                    <div class="yuan"></div>
-                    <span class="ECC">ECC01-001Lw</span>
+            <!-- 支付开始 -->
+            <div class="tail">
+                <div class="one">
+                    <div class="round"></div>
+                    <span>实付款：¥60.00</span>
                 </div>
-                <div class="font2">
-                    <div class="yuan"></div>
-                    <span class="ECC ECC2" style="font-size:0.22rem;color:#AFB1B2;" >商品规格潜水艇高端龙头</span>
-                </div>
-                <div class="font2 money">
-                    <div class="yuan"></div>
-                    <span class="ECC money2">¥60.00</span>
+                <div class="one3">
+                    <a href="bPay.html"><div class="Bigbutton">去支付</div></a>
+                    <a href="Dorderform.html"><div class="samllbutton">取消订单</div></a>
                 </div>
             </div>
+            <!-- 支付结束 -->
         </div>
     </div>
-    <!-- 支付开始 -->
-    <div class="tail">
-        <div class="one">
-            <div class="round"></div>
-            <span>实付款：¥60.00</span>
-        </div>
-        <div class="one3">
-            <a href="bPay.html"><div class="Bigbutton">去支付</div></a>
-            <a href="Dorderform.html"><div class="samllbutton">取消订单</div></a>
-        </div>
-    </div>
-    <!-- 支付结束 -->
-<!-- Tab栏开始 -->
+
+
+    <!-- Tab栏开始 -->
     <div class="dh">
         <div class="dh1">
             <a href="index.html">
@@ -96,6 +104,13 @@
         </div>
     </div>
     <!-- Tab栏结束 -->
+
+
+    <script src="js/iscroll.js"></script>
+    <script>
+        let myScroll = new IScroll('.bigbox');
+    
+    </script>
     
 </body>
 </html>

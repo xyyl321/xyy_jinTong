@@ -32,21 +32,25 @@ body{
     height: 7.01rem;
     float: left;
     margin-top: 0.88rem;
+    background-color: #fff;
 }
 .bag_w{
     width: 7.02rem;
     height: 100%;
     margin: 0 auto;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .bag_w a img{
     width: 3rem;
     height: 3.61rem;
     display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
 }
 
 /* 用户评价 */

@@ -23,12 +23,23 @@
     height:7.28rem;
     overflow: hidden;
 }
+.banner .img{
+    width:7.5rem;
+    height:7.28rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .banner img{
+    display: block;
     width:3.17rem;
     height:3.33rem;
-    display: block;
-    margin:1.84rem 0  0  1.67rem;
+
 }
+
+
+
+
 .bigbox{
     width:7.5rem;
     height:auto;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" rem="750">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,16 @@
     <link rel="stylesheet" href="css/rem.css">
     <link rel="stylesheet" href="css/Dorderform.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_1212486_vpg6nvr6mro.css">
+    <link rel="stylesheet" href="css/mui.min.css">
 </head>
+<style>
+    body {
+        background-color: #fbfbfb;
+    }
+</style>
+
 <body>
-     <!-- 导航栏开始 -->
+    <!-- 导航栏开始 -->
     <div class="header">
         <!-- <a href=""><i class="iconfont iconzuojiantou"></i> </a>  -->
         <span>订单</span>
@@ -28,43 +36,62 @@
         <div class="select"></div>
     </div>
     <!-- 选项栏结束 -->
-    <!-- 待接单开始 -->
-    <div class="ordertaking">
-        <img src="img/tu4.PNG" alt="">
-        <div class="right">
-            <div class="font1">厨房下水清洁疏通</div>
-            <div class="font2">待接单</div>
-            <div class="time">
-                <div class="round"></div>
-                <span class="font3">预约日期</span>
-                <span class="font4">2018.05.28  14:00</span>
+
+
+
+    <!-- <div class="bigbox"
+        style="width: 100%; height:10.88rem; background-color: #fbfbfb; overflow: hidden; position: relative;"> -->
+    <div class="scroll" style="width: 100%; height:12rem;background-color: #fbfbfb;overflow:hidden;">
+        <div class="scrollBox" style="height:14rem">
+            <!-- 待接单开始 -->
+            <div class="ordertaking" style="background-color: #fbfbfb;">
+                <img src="img/tu4.PNG" alt="">
+                <div class="right">
+                    <div class="font1">厨房下水清洁疏通</div>
+                    <div class="font2">待接单</div>
+                    <div class="time">
+                        <div class="round"></div>
+                        <span class="font3">预约日期</span>
+                        <span class="font4">2018.05.28 14:00</span>
+                    </div>
+                    <div class="money">
+                        <div class="left">
+                            <div class="round"></div>
+                            <span class="font5">¥60.00</span>
+                        </div>
+                        <div class="left righ">
+                            <div class="round round2"></div>
+                            <span class="font6">x</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="money">
-                <div class="left">
+            <!-- 待接单结束 -->
+            <!-- 支付开始 -->
+            <div class="tail" style="background-color: #fbfbfb;">
+                <div class="one">
                     <div class="round"></div>
-                    <span class="font5">¥60.00</span>
+                    <span>已付款：¥60.00</span>
                 </div>
-                <div class="left righ">
-                    <div class="round round2"></div>
-                    <span class="font6">x</span>
+                <div class="one2"><span>剩余款项由维修人员上门视具体情况报价</span></div>
+                <div class="one3">
+                    <a href="Dfill3.html">
+                        <div class="Bigbutton">去支付服务费</div>
+                    </a>
+                    <a href="">
+                        <div class="samllbutton">取消预约</div>
+                    </a>
                 </div>
             </div>
+            <!-- 支付结束 -->
         </div>
+
     </div>
-    <!-- 待接单结束 -->
-    <!-- 支付开始 -->
-    <div class="tail">
-        <div class="one">
-            <div class="round"></div>
-            <span>已付款：¥60.00</span>
-        </div>
-        <div class="one2"><span>剩余款项由维修人员上门视具体情况报价</span></div>
-        <div class="one3">
-            <a href="Dfill3.html"><div class="Bigbutton">去支付服务费</div></a>
-            <a href=""><div class="samllbutton">取消预约</div></a>
-        </div>
-    </div>
-    <!-- 支付结束 -->
+    <!-- </div> -->
+
+
+
+
     <!-- Tab栏开始 -->
     <div class="dh">
         <div class="dh1">
@@ -99,5 +126,29 @@
         </div>
     </div>
     <!-- Tab栏结束 -->
+
+    <script src="js/iscroll.js"></script>
+    <script src="js/mui.min.js"></script>
+    <script>
+        let myScroll = new IScroll('.scroll');
+
+
+        // mui.init({
+        //     pullRefresh: {
+        //         container: ".bigbox",//下拉刷新容器标识，querySelector能定位的css选择器均可，比如：id、.class等
+        //         down: {
+        //             style: 'circle',//必选，下拉刷新样式，目前支持原生5+ ‘circle’ 样式
+        //             color: '#2BD009', //可选，默认“#2BD009” 下拉刷新控件颜色
+        //             height: '50px',//可选,默认50px.下拉刷新控件的高度,
+        //             range: '100px', //可选 默认100px,控件可下拉拖拽的范围
+        //             offset: '0px', //可选 默认0px,下拉刷新控件的起始位置
+        //             auto: true,//可选,默认false.首次加载自动上拉刷新一次
+        //             callback: function () { } //必选，刷新函数，根据具体业务来编写，比如通过ajax从服务器获取新数据；
+        //         }
+        //     }
+        // });
+
+    </script>
 </body>
+
 </html>

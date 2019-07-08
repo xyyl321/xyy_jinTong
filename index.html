@@ -10,7 +10,15 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_1212486_sa7cbsop8ig.css">
     <script src="js/rem.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/mui.min.css">
 </head>
+
+<style>
+    .bigbox{
+        background-color: #fff;
+    }
+</style>
 <body>
     <!-- header -->
     <div class="header">
@@ -22,7 +30,7 @@
         </div>
     </div>
     <!-- 搜索框 -->
-    <div class="select">
+    <div class="select" style="background-color: #fff;">
         <div class="select_w">
             <a href="aAddress.html">
                 <span>太原</span>
@@ -36,109 +44,153 @@
             </div>
         </div>
     </div>
-    <!-- banner -->
-    <div class="banner">
-        <ul class="tu">
-            <li class="act"><img src="img/173718.png" alt=""></li>
-            <li><img src="img/235309.png" alt=""></li>
-            <li><img src="img/30235241.png" alt=""></li>
-        </ul>
-        <div class="btn">
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-    <!-- sort -->
-    <div class="sort">
-        <div class="sort_w">
-            <ul>
-                <li>
-                    <a href="bAquage.html">
-                        <img src="img/01_15.png" alt="">
-                        <span>水路综合</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/01_18.png" alt="">
-                        <span>水管维修</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/01_20.png" alt="">
-                        <span>管道维修</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/01_30.png" alt="">
-                        <span>龙头维修</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/01_35.png" alt="">
-                        <span>地漏疏通</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/01_37.png" alt="">
-                        <span>阀门维修</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/01_43.png" alt="">
-                        <span>下水道疏通</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/01_45.png" alt="">
-                        <span>其它</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
 
-    <!-- footer -->
+   
+    <div class="bigbox" style="width: 100%; height:10.88rem; overflow: hidden; position: relative;">
+            <div class="scroll" style="width: 100%; height:12rem;">
+    
+                <!-- banner -->
+                <div class="banner swiper-container ">
+                    <ul class="tu swiper-wrapper">
+                        <li class="swiper-slide tuu">
+                            <img src="img/173718.png" alt="">
+                        </li>
+                        <li class="swiper-slide tuu">
+                            <img src="img/235309.png" alt="">
+                        </li>
+                        <li class="swiper-slide tuu">
+                            <img src="img/30235241.png" alt="">
+                        </li>
+                    </ul>
+                    <!-- <div class=" swiper-pagination"> -->
+                        <!-- <span class="active"></span>
+                        <span></span>
+                        <span></span> -->
+                    <!-- </div> -->
+                    <div class="swiper-pagination box"></div>
+                </div>
+                <!-- sort -->
+                
+                <div class="sort">
+                    <div class="sort_w">
+                        <ul>
+                            <li>
+                                <a href="bAquage.html">
+                                    <img src="img/01_15.png" alt="">
+                                    <span>水路综合</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/01_18.png" alt="">
+                                    <span>水管维修</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/01_20.png" alt="">
+                                    <span>管道维修</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/01_30.png" alt="">
+                                    <span>龙头维修</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/01_35.png" alt="">
+                                    <span>地漏疏通</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/01_37.png" alt="">
+                                    <span>阀门维修</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/01_43.png" alt="">
+                                    <span>下水道疏通</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/01_45.png" alt="">
+                                    <span>其它</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- footer -->
+                
+            </div>
+        </div>
+    
     <div class="dh">
-        <div class="dh1">
-            <a href="">
-                <i class="iconfont iconshouye1"  style="color:#59C3FE;"></i>
-                <span  style="color:#59C3FE;">首页</span>
-            </a>
+            <div class="dh1">
+                <a href="">
+                    <i class="iconfont iconshouye1"  style="color:#59C3FE;"></i>
+                    <span  style="color:#59C3FE;">首页</span>
+                </a>
+            </div>
+            <div class="dh1">
+                <a href="Cjt.html">
+                    <i class="iconfont iconshouye"></i>
+                    <span>商城</span>
+                </a>
+            </div>
+            <div class="dh1">
+                <a href="Dpulldownicon.html">
+                    <i class="iconfont iconjia1"></i>
+                    <span>入驻</span>
+                </a>
+            </div>
+            <div class="dh1">
+                <a href="Dorderform.html">
+                    <i class="iconfont icondingdan"></i>
+                    <span>订单</span>
+                </a>
+            </div>
+            <div class="dh1">
+                <a href="fgrzx.html">
+                    <i class="iconfont iconwode"></i>
+                    <span>我的</span>
+                </a>
+            </div>
         </div>
-        <div class="dh1">
-            <a href="Cjt.html">
-                <i class="iconfont iconshouye"></i>
-                <span>商城</span>
-            </a>
-        </div>
-        <div class="dh1">
-            <a href="Dpulldownicon.html">
-                <i class="iconfont iconjia1"></i>
-                <span>入驻</span>
-            </a>
-        </div>
-        <div class="dh1">
-            <a href="Dorderform.html">
-                <i class="iconfont icondingdan"></i>
-                <span>订单</span>
-            </a>
-        </div>
-        <div class="dh1">
-            <a href="fgrzx.html">
-                <i class="iconfont iconwode"></i>
-                <span>我的</span>
-            </a>
-        </div>
-    </div>
+
+
+
+
+    <script src="js/swiper.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/mui.min.js"></script>
+    <script>
+        let myScroll = new IScroll('.bigbox');
+
+
+    mui.init({
+        pullRefresh : {
+            container:".bigbox",//下拉刷新容器标识，querySelector能定位的css选择器均可，比如：id、.class等
+            down : {
+            style:'circle',//必选，下拉刷新样式，目前支持原生5+ ‘circle’ 样式
+            color:'#2BD009', //可选，默认“#2BD009” 下拉刷新控件颜色
+            height:'50px',//可选,默认50px.下拉刷新控件的高度,
+            range:'100px', //可选 默认100px,控件可下拉拖拽的范围
+            offset:'0px', //可选 默认0px,下拉刷新控件的起始位置
+            auto: true,//可选,默认false.首次加载自动上拉刷新一次
+            callback :function(){} //必选，刷新函数，根据具体业务来编写，比如通过ajax从服务器获取新数据；
+            }
+        }
+    });
+    
+    </script>
 </body>
 
 </html>

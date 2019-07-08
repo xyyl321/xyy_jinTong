@@ -96,26 +96,28 @@ body{
     margin-top: 0.16rem;
     width: 100%;
     height: 2.98rem; 
-    float: left;
-    position: relative;
+    /* float: left; */
+    /* position: relative; */
 
 }
 .banner .tu{
     width: 100%;
     height: 2.98rem; 
-    position: relative;
+    /* position: relative; */
 }
-.banner .tu img{
+.banner .tu .tuu, img{
     width: 100%;
     height: 2.98rem; 
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
+    /* transition: all 1s linear; */
 }
-.banner .tu .act{
+/* .banner .tu .act{
     z-index: 9;
-}
-.banner .btn{
+} */
+
+/* .banner .btn{
     width: 1rem;
     height: 0.15rem;
     position: absolute;
@@ -133,17 +135,18 @@ body{
 }
 .banner .btn .active{
     background: #4ebbfe;
-}
+} */
 
-.banner,img{
+/* .banner,img{
     width: 100%;
     height: 2.98rem;
-}
+} */
 /* sort */
 .sort{
     width: 100%;
     height: 7.3rem;
     float: left;
+    background-color: #fff;
 }
 .sort_w{
     width: 7.02rem;
